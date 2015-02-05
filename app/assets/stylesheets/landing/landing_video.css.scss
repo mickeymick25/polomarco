@@ -1,7 +1,47 @@
 .intro {
-  line-height: 0em;
   position: relative;
+  line-height: 0em;
   background:rgba(0,0,0,1);
+}
+
+.intro .intro-section {
+    position: absolute;
+    top: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+
+    max-width: 675px;
+    padding: 130px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro .intro-section h1 {
+    color: #fff;
+    padding: 50px 0;
+    line-height: 1.3em;
+}
+.intro .intro-section .btn-custom-border {
+    color: #fff;
+}
+
+a.mouse {
+    background-image: url(../images/mouse.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 38px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -12px;
+}
+a.mouse i {
+    position: relative;
+    color: #fff;
 }
 
 video { 
