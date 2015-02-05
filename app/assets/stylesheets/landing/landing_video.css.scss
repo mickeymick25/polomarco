@@ -1,7 +1,9 @@
 .intro {
   position: relative;
+  overflow: hidden;
   line-height: 0em;
-  background:rgba(0,0,0,1);
+  background: #1B1F23;
+
 }
 
 .intro .intro-section {
@@ -52,5 +54,5 @@ video {
   z-index: -100;
   background: url('../images/Italy_001.png') no-repeat;
   background-size: cover;
-  opacity: .5;
+  opacity: .2;
 }
