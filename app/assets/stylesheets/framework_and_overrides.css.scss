@@ -33,6 +33,7 @@ img {
   }
 // apply styles to HTML elements
 // to make views framework-neutral
+
 main {
   @extend .container;
   background-color: #eee;
@@ -42,7 +43,7 @@ main {
   }
 section {
   @extend .row;
-  margin-top: 20px;
+  margin-top: 0 auto;
   }
 
 // Styles for form views

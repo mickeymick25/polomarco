@@ -1,0 +1,16 @@
+.intro {
+  line-height: 0em;
+  position: relative;
+  background:rgba(0,0,0,1);
+}
+
+video { 
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url('assets/images/masthead.jpg') no-repeat;
+  background-size: cover;
+  opacity: .5;
+}
