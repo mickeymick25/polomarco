@@ -29,6 +29,238 @@
 		</div>
 	</div>
 </section>
+<!-- end intro section -->
 
-<h3>Welcome</h3>
-<p><%= link_to 'Users:', users_path %> <%= User.count %> registered</p>
+<!-- begin features section -->
+<section class="features" id="polo">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-head wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+					<h1>Polo simplifie votre travail</h1>
+					<p>Il mesure et collecte des données sur la salubrité de l'environnement ambiant</p>
+					<span class="underline"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+					
+					<!-- begin single feature item -->
+					<div class="feature">
+						<div class="icon-container">
+							<div class="icon">
+							<i class="fa fa-code"></i>
+							</div>
+						</div>
+
+						<div class="fetaure-details">
+							<h4 class="main-color">Température</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							</p>
+						</div>
+					</div>
+					<!-- end single feature item -->
+
+					<!-- begin single feature item -->
+					<div class="feature">
+						<div class="icon-container">
+							<div class="icon">
+							<i class="fa fa-tint"></i>
+							</div>
+						</div>
+
+						<div class="fetaure-details">
+							<h4 class="main-color">Humidité</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							</p>
+						</div>
+					</div>
+					<!-- end single feature item -->
+
+					<!-- begin single feature item -->
+					<div class="feature">
+						<div class="icon-container">
+							<div class="icon">
+							<i class="fa fa-lightbulb-o"></i>
+							</div>
+						</div>
+
+						<div class="fetaure-details">
+							<h4 class="main-color">Luminosité</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							</p>
+						</div>
+					</div>
+					<!-- end single feature item -->
+
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<!-- begin feature image -->
+				<figure class="image-features wow bounceIn animated animated" data-wow-offset="120" data-wow-duration="1.5s">
+					<%= image_tag "polo.png", :title => "polo" %>
+				</figure>
+				<!-- end feature image -->
+			</div>
+			
+			<div class="col-md-4">
+				<div class="features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+					<!-- begin single feature item -->
+					<div class="feature">
+						<div class="icon-container">
+							<div class="icon">
+							<i class="fa fa-thumbs-up"></i>
+							</div>
+						</div>
+
+						<div class="fetaure-details">
+							<h4 class="main-color">Particules</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							</p>
+						</div>
+					</div>
+					<!-- end single feature item -->
+
+					<!-- begin single feature item -->
+					<div class="feature">
+						<div class="icon-container">
+							<div class="icon">
+							<i class="fa fa-refresh"></i>
+							</div>
+						</div>
+
+						<div class="fetaure-details">
+							<h4 class="main-color">Gaz</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							</p>
+						</div>
+					</div>
+					<!-- end single feature item -->
+
+					<!-- begin single feature item -->
+					<div class="feature">
+						<div class="icon-container">
+							<div class="icon">
+							<i class="fa fa-map-marker"></i>
+							</div>
+						</div>
+
+						<div class="fetaure-details">
+							<h4 class="main-color">Accéléro-gyro-magnétomètre</h4>
+							<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							</p>
+						</div>
+					</div>
+					<!-- end single feature item -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+<!-- end features section -->
+<div class="divider"></div>
+<!-- begin brief section -->
+<section class="brief" id="dash">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<div class="brief-content wow fadeInLeft animated" data-wow-offset="10">
+					<h1>Un dashboard pour faciliter l'interprétation de vos données</h1>
+					<div class="underline"></div>
+					<p>
+						What's amazing is, if young people understood how doing well in school makes the rest of their life so much interesting, they would be more motivated. It's so far away in time that they can't appreciate what it means for their whole life. They would be more motivated. It's so far away in time.
+					</p>
+					<p>
+						If young people understood how doing well in school makes the rest of their life so much interesting, they would be more.
+					</p>
+
+					<%= link_to (new_user_session_path), :class=>"btn btn-custom" do %>
+						<i class="fa fa-sign-in"></i>S'identifier
+					<% end %>
+					
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<figure class="small-slider wow fadeInRight animated" data-wow-offset="10">
+					<!-- begin single slider item -->
+					<div class="item">
+						<%= image_tag "iphone5_two.png", :title => "iphone5" %>
+					</div>
+					<!-- end single slider item -->
+					<!-- begin single slider item -->
+					<div class="item">
+						<%= image_tag "iphone5_white.png", :title => "iphone5" %>
+					</div>
+					<!-- end single slider item -->
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end brief section -->
+
+<div class="divider"></div>
+
+<!-- begin customer section -->
+<section class="partners wow fadeIn animated">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-head wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+					<h1>Nos partenaires</h1>
+					<span class="underline"></span>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="partners-slider">
+					<div class="item">
+						<%= image_tag "partners/client1.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client2.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client3.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client4.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client1.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client2.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client3.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client4.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client1.png", :title => "clientname" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/client2.png", :title => "clientname" %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end customer section -->
+
+<div class="divider"></div>

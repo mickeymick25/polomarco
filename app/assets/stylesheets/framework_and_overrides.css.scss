@@ -37,14 +37,33 @@ img {
 main {
   @extend .container;
   background-color: #eee;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
   }
+
+/* Sections */
 section {
   @extend .row;
-  margin-top: 0 auto;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
+
+section:first-child{
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+.section-head {
+    font-size: 18px;
+    text-align: center;
+}
+
+.section-head p {
+    margin-bottom: 0px;
+}
+
 
 // Styles for form views
 // using Bootstrap
@@ -80,4 +99,11 @@ section {
   @extend .btn;
   @extend .btn-primary;
   @extend .btn-xs;
+}
+
+
+////
+h1{
+  margin-top:10px;
+  margin-bottom: 10px;
 }

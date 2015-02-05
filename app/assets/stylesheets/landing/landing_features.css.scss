@@ -1,0 +1,59 @@
+/* Features Section */
+
+.features {
+    background: #f9f9f9;
+}
+
+.features .features-left {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.features .features-left .icon-container {
+    float: right;
+    margin-left: 40px;
+}
+
+.features .features-right {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.features .features-right .icon-container {
+    float: left;
+    margin-right: 40px;
+}
+
+.features .feature {
+    margin-bottom: 23px;
+}
+    .features .feature:hover .icon-container .icon {
+        color: #fff;
+    }
+.features .feature h4 {
+    margin-bottom: 20px;
+}
+
+.features .feature .icon-container {
+    display: block;
+    min-height: 120px;
+}
+
+.features .feature .icon-container .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 32px;
+    text-align: center;
+    -webkit-transition: all .15s linear;
+       -moz-transition: all .15s linear;
+        -ms-transition: all .15s linear;
+         -o-transition: all .15s linear;
+            transition: all .15s linear;
+}
+
+.features figure img {
+    margin: 0 auto;
+    display: block;
+}

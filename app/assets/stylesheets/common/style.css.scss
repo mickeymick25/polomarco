@@ -1,0 +1,134 @@
+/* Lamap App Landing Page Light version Stylesheet
+====================================================== */
+@import 'common';
+
+/* HTML 5 reset & Bootstrap fixes */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: $background-color;
+    font-family: $font_primary;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    overflow-x: hidden;
+    position: relative;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+ul,
+ol {
+    padding-left: 0px;
+}
+
+ul li {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    color: $link-color;
+    background:transparent;
+    -webkit-transition: all .15s linear;
+       -moz-transition: all .15s linear;
+        -ms-transition: all .15s linear;
+         -o-transition: all .15s linear;
+            transition: all .15s linear;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    -webkit-transition: all .15s linear;
+       -moz-transition: all .15s linear;
+        -ms-transition: all .15s linear;
+         -o-transition: all .15s linear;
+            transition: all .15s linear;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border: none;
+    outline: none;
+}
+
+*::-webkit-input-placeholder { color: white; }
+          *:-moz-placeholder { color: white; }
+         *::-moz-placeholder { color: white; }
+     *:-ms-input-placeholder { color: white; }
+
+.btn:focus,
+.btn:active {
+    outline: none;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-border-sizing: border-box;
+       -moz-border-sizing: border-box;
+            border-sizing: border-box;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+.nopadding {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.owl-wrapper-outer{
+    overflow: hidden !important;
+}

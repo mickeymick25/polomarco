@@ -1,0 +1,14 @@
+/* partners Section */
+.partners {
+    background: #f9f9f9;
+}
+
+.partners .partners-slider .item img {
+    display: block;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.partners .partners-slider .item:hover img {
+    opacity: 1;
+} 

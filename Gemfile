@@ -8,26 +8,32 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'font-awesome-sass'
+gem 'owlcarousel-rails'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'pundit'
 gem 'simple_form'
 gem 'unicorn'
 gem 'unicorn-rails'
+
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
 end
+
 group :development, :test do
   gem 'sqlite3'
 end
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'

@@ -1,0 +1,35 @@
+.small-slider .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -26px;
+}
+.small-slider .owl-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -26px;
+}
+
+/* Brief Section */
+
+.brief-content {
+    max-width: 500px;
+}
+
+.brief-content h1 {
+    line-height: 1.3em;
+}
+
+.brief-content .underline {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.brief-content .btn {
+    margin-top: 25px;
+}
+
+.brief figure img {
+    max-height: 525px;
+}
