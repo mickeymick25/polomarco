@@ -1,9 +1,7 @@
 <!-- begin intro section -->
 <section class="intro" id="intro">
-	<%= video_tag(["preview.ogg", "preview.webm", "preview.mp4"], autobuffer: true, autoplay: true, loop:true) %>
+	<%= video_tag(["preview.ogg", "preview.webm", "preview.mp4"], poster: "Italy_001.png",  autobuffer: true, autoplay: true, loop:true) %>
 </section>
-
-
 
 <h3>Welcome</h3>
 <p><%= link_to 'Users:', users_path %> <%= User.count %> registered</p>
