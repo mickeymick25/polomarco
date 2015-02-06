@@ -21,20 +21,26 @@ img {
   @extend .text-center;
   }
 .form {
-  @extend .col-md-6;
+ // @extend .col-md-6;
   }
 .form-centered {
-  @extend .col-md-6;
+  //@extend .col-md-6;
   @extend .text-center;
   }
 .submit {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-lg;
+  //@extend .btn;
+  //@extend .btn-primary;
+  //@extend .btn-lg;
   }
 
 .btn {
   padding: 17px 45px;
+}
+.btn.btn-secondary{
+  border: 1px solid #FFF;
+}
+.btn.btn-secondary:hover{
+  border-color:transparent;
 }
 .btn:hover{
   color: #FFF;
