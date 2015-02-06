@@ -1,0 +1,25 @@
+/* Reviews Section */
+
+.client-data {
+    border-right: 1px solid #e1e1e1;
+}
+
+.client-image {
+    float: left;
+}
+    .client-image img {
+        border: 7px solid #f2f2f2;
+        border-radius: 50%;
+    }
+
+.client-name {
+    float: left;
+    padding: 60px 0 0 20px;
+}
+.client-name h4 {
+    margin-bottom: 0px;
+}
+
+.client-quote {
+    padding: 40px 0 0 20px;
+}

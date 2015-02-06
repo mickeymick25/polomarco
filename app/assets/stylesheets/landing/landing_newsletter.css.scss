@@ -1,0 +1,45 @@
+/* Newsletter Section */
+
+.newsletter {
+    background-image: url(../images/newsletter_bg.jpg);
+    -webkit-background-size: cover;
+            background-size: cover;
+}
+
+.newsletter .section-head {
+    color: #fff;
+}
+
+.newsletter .form {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter input {
+    height: 62px;
+    width: 500px;
+    padding: 20px;
+    background: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.newsletter #success_page p,
+.newsletter #message {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.screens .owl-prev {
+    position: absolute;
+    left: -27px;
+    top: 50%;
+    margin-top: -26px;
+}
+.screens .owl-next {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -26px;
+}

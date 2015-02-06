@@ -1,3 +1,6 @@
+@import '../common/common';
+
+/* Screenshot Section */
 .small-slider .owl-prev {
     position: absolute;
     left: 0;
@@ -10,6 +13,54 @@
     top: 50%;
     margin-top: -26px;
 }
+.owl-theme .owl-controls .owl-buttons div{
+    padding: 0;
+    webkit-border-radius:   3px;
+    moz-border-radius:      3px;
+    border-radius:          3px;
+}
+.owl-buttons div i.fa {
+    font-size: 4.3em;
+}
+
+.screens .screen a {
+    display: inline-block;
+    position: relative;
+}
+.screens .screen img {
+    border-radius: 4px;
+}
+
+.hover-screen {
+    opacity: 0;
+}
+.screen a:hover .hover-screen {
+    opacity: 1;
+    top: 50%;
+    margin-top: -40px;
+    left: 50%;
+    margin-left: -40px;
+    position: absolute;
+}
+.screen a:hover .hover-screen i {
+    font-size: 24px;
+    color: #fff;
+    border: 1px solid #fff;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    -webkit-transition: all .15s linear;
+       -moz-transition: all .15s linear;
+        -ms-transition: all .15s linear;
+         -o-transition: all .15s linear;
+            transition: all .15s linear;
+}
+.screens .screen .hover-screen i:hover {
+    background-color: #fff;
+}
+
 
 /* Brief Section */
 

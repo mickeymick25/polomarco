@@ -1,6 +1,7 @@
 // import the CSS framework
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "common/common";
 
 // make all images responsive by default
 img {
@@ -31,6 +32,14 @@ img {
   @extend .btn-primary;
   @extend .btn-lg;
   }
+
+.btn {
+  padding: 17px 45px;
+}
+.btn:hover{
+  color: #FFF;
+}
+
 // apply styles to HTML elements
 // to make views framework-neutral
 
@@ -45,10 +54,15 @@ main {
 /* Sections */
 section {
   @extend .row;
-    margin-top: 0px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+  margin-top:     0px;
+  padding-top:    40px;
+  padding-bottom: 40px;
+}
+section h1 {
+  font-family: $font_primary;
+  font-size: 2.5em;
+  font-weight: 300;
+}
 
 section.intro{
     padding-top:0px;
@@ -59,11 +73,6 @@ section.intro{
     font-size: 18px;
     text-align: center;
 }
-
-.section-head p {
-    margin-bottom: 0px;
-}
-
 
 // Styles for form views
 // using Bootstrap
@@ -96,11 +105,13 @@ section.intro{
 #error_explanation h2 {
   font-size: 16px;
 }
+
 .button-xs {
   @extend .btn;
   @extend .btn-primary;
   @extend .btn-xs;
 }
+
 .alert{
   position:fixed;
   top: 51px;
@@ -118,9 +129,4 @@ button.close{
 }
 .alert-danger button.close{
   color: #a94442;
-}
-////
-h1{
-  margin-top:10px;
-  margin-bottom: 10px;
 }

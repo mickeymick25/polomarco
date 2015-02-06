@@ -1,0 +1,19 @@
+/* Service Section */
+
+.service {
+    text-align: center;
+    margin: 0;
+    -webkit-transition: all .15s linear;
+       -moz-transition: all .15s linear;
+        -ms-transition: all .15s linear;
+         -o-transition: all .15s linear;
+            transition: all .15s linear;
+}
+    .service:hover {
+        margin-top: -10px;
+    }
+ 
+.service i {
+    font-size: 42px;
+    margin-bottom: 30px;
+}

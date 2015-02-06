@@ -1,0 +1,82 @@
+@import "common";
+
+/// Color stuff
+.nav-tabs>li>a:hover {
+	background-color: $btn-color-primary;
+	border-color: $btn-color-primary;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {
+    background-color: #0088cc;
+    border: 1px solid #0088cc;
+}
+
+.btn-custom {
+    border-color: $btn-color-primary;
+    background-color: $btn-color-primary;
+}
+
+.btn-custom-border {
+    background: transparent;
+    border-color: $btn-color-primary;
+    color: #ffffff;
+}
+
+.features .feature .icon-container .icon {
+    border: 1px solid $btn-color-primary;
+}
+
+.btn-send,
+.newsletter input {
+    border: 1px solid #ffffff;
+}
+
+.btn-send:hover,
+.btn-send:active,
+.btn-custom:hover,
+.btn-custom-border:hover,
+.btn-slide:hover,
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus,
+.navbar-toggle {
+    background-color:   $btn-color-hover;
+    border-color:       $btn-color-hover;
+}
+
+.btn-slide,
+.features .feature:hover .icon-container .icon,
+.footer span.jobs {
+    background-color: $btn-color-primary;
+}
+
+
+.underline {
+	border-top: 4px solid $btn-color-primary;
+}
+
+.underline-small {
+    border-top: 2px solid $btn-color-primary;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-nav>li.current a,
+.features .feature .icon-container .icon,
+.service i,
+.service:hover h4,
+.screens .screen .hover-screen i:hover,
+.packages .package.featured .package-name,
+ul.extra-features i,
+.footer a:hover,
+.footer i:hover {
+    color: $btn-color-primary;
+}
+
+.footer span.jobs:after {
+	border-right-color: $btn-color-primary;
+}
+
