@@ -31,13 +31,12 @@
 }
 
 a.mouse {
-    background-image: url(../images/mouse.png);
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 38px;
     display: block;
     position: absolute;
-    bottom: 0px;
+    background: image-url("mouse.png") no-repeat;
+    width: 25px;
+    height: 38px;
+    bottom: -140px;
     left: 50%;
     margin-left: -12px;
 }
@@ -52,7 +51,7 @@ video {
   width: auto;
   height: auto;
   z-index: -100;
-  background: url('../images/Italy_001.png') no-repeat;
+  background: image-url("Italy_001.png") no-repeat;
   background-size: cover;
   opacity: .2;
 }
