@@ -6,29 +6,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<!-- begin logo intro section -->
-					<%= image_tag "logo_bw.png", :title => "logo" %>
-					<!-- end logo intro section -->
-					<h1>Solution de cartographie<br/>pour les environnements ambiants</h1>
-					<ul class="list-inline">
-						<li>
-							<a href="#" class="btn btn-custom">
-								<i class="fa fa-cloud-download"></i>
-								Download
-							</a>
-						</li>
-						<li>
-							<a href="#" class="btn btn-custom-border btn-secondary">
-								<i class="fa fa-align-left"></i>
-								Discover
-							</a>
-						</li>
-					</ul>
-				
-					<a href="#polo" class="mouse">
-						<i class="fa fa-angle-down Drop animated"></i>
-					</a>
-					
+					<div class="introsection wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<!-- begin logo intro section -->
+						<%= image_tag "logo_bw.png", :title => "logo" %>
+						<!-- end logo intro section -->
+						<h1>Solution de cartographie<br/>pour les environnements ambiants</h1>
+						<ul class="list-inline">
+							<li>
+								<a href="#polo" class="btn btn-custom">
+									<i class="fa fa-align-left"></i>
+									Discover
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -224,51 +215,52 @@
 
 <div class="divider"></div>
 
-<!-- begin customer section -->
-<section class="partners wow fadeIn animated">
+<!-- begin extra section -->
+<section class="extra" id="story">
 	<div class="container">
+
 		<div class="row">
-			<div class="col-md-12">
-				<div class="section-head wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-					<h1>Nos partenaires</h1>
-					<span class="underline"></span>
-				</div>
-			</div>
-			<div class="col-md-12">
-				<div class="partners-slider">
-					<div class="item">
-						<%= image_tag "partners/microsoft.png", :title => "Microsoft" %>
+	
+				<!-- begin first tab content -->
+				<div class="tab-pane fade in active" id="first-tab">
+					<div class="col-md-5">
+						<figure class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+							<%= image_tag "iphones_skew.png", :title => "iphone5" %>
+						</figure>
 					</div>
-					<div class="item">
-						<%= image_tag "partners/axa.png", :title => "Axa" %>
+					
+					<div class="col-md-6 col-md-offset-1">
+						<div class="brief-content wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+							<h1>Notre histoire</h1>
+							<div class="underline"></div>
+							<p>
+								Lors du hackathon Zone 61 organisé en janvier 2015, Logu et Clément se sont réunis avec pour ambition de développer un duo de robots autonomes, constitué d’un robot terrestre et d’un drone. Les défauts d’un véhicule sont compensés par les avantages de l’autre afin d'évoluer sans intervention humaine dans tout type d’environnement.En partant de cette idée d’exploration, le nom de Marco Polo, voyageur du XIVème siècle, s’est imposé dans notre esprit. 
+							</p>
+
+							<p>
+								Le prototype de Polo, le robot terrestre, a été retenu aux termes du hackathon. Claire, Michael et Yann ont rejoint son développement pour le challenge Zone 61 qui prend fin en mars 2015.
+							</p>
+						</div>
 					</div>
-					<div class="item">
-						<%= image_tag "partners/uxr.png", :title => "UX-Republic" %>
-					</div>
-					<div class="item">
-						<%= image_tag "partners/microsoftOpeness.png", :title => "Microsoft Openess" %>
-					</div>
-					<div class="item">
-						<%= image_tag "partners/bemyapps.png", :title => "Bemyapps" %>
-					</div>
-				</div>
+
 			</div>
 		</div>
+		
 	</div>
 </section>
-<!-- end customer section -->
+<!-- end extra section -->
 
 <div class="divider"></div>
 
-<!-- begin reviews section -->
+<!-- begin Team section -->
 <section class="reviews" id="team">
 	<div class="container">
 		
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-head wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-					<h1>Team</h1>
-					<p>L'équipe de Polo & Marco</p>
+					<h1>L'équipe</h1>
+					<p>Rencontrer la team de Polo & Marco</p>
 					<span class="underline"></span>
 				</div>
 			</div>
@@ -377,7 +369,43 @@
 
 	</div>	
 </section>
-<!-- end reviews section -->
+<!-- end team section -->
+
+<div class="divider"></div>
+
+<!-- begin partners section -->
+<section class="partners wow fadeIn animated">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-head wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+					<h1>Nos partenaires</h1>
+					<span class="underline"></span>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="partners-slider">
+					<div class="item">
+						<%= image_tag "partners/microsoft.png", :title => "Microsoft" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/axa.png", :title => "Axa" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/uxr.png", :title => "UX-Republic" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/microsoftOpeness.png", :title => "Microsoft Openess" %>
+					</div>
+					<div class="item">
+						<%= image_tag "partners/bemyapps.png", :title => "Bemyapps" %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end customer section -->
 
 <div class="divider"></div>
 
@@ -399,26 +427,16 @@
 			<div class="col-sm-12 form">
 				<div id="contact">
 
-				<form method="post" action="contact.php" name="contactform" id="contactform">
+					<%= field_set_tag do %>
+						<%= form_tag('visitors/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
+						   <%= email_field_tag(:email, "Votre adresse e-mail" ) %>
+						   <%= submit_tag("Tenez moi au courant !", class: "submit btn btn-secondary btn-send") %>
+						<% end %>
+					<% end %>
 
-					<fieldset>
-
-						<label for="email" accesskey="E"></label>
-						<input name="email" type="text" id="email" size="30" value="" placeholder="Please enter your email address" />
-
-						<button type="submit" class="submit btn btn-secondary btn-send" id="submit" value="Submit">
-							<i class="fa fa-envelope"></i>
-							Subscribe
-						</button>
-
-					</fieldset>
-
-				</form>
-
-				<div class="tex-center">
-					<div id="message"></div>
-				</div>
-
+					<div class="tex-center">
+						<div id="message"></div>
+					</div>
 				</div>
 			</div>
 		</div>

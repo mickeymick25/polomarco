@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'font-awesome-sass'
 gem 'owlcarousel-rails'
 gem 'figaro'
+gem 'gibbon'
 
 group :development, :test do
   gem 'byebug'
