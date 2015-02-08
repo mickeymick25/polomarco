@@ -1,5 +1,9 @@
 /* Reviews Section */
 
+.reviews {
+    background: #f9f9f9;
+}
+
 .client-data {
     border-right: 1px solid #e1e1e1;
 }
@@ -7,10 +11,10 @@
 .client-image {
     float: left;
 }
-    .client-image img {
-        border: 7px solid #f2f2f2;
-        border-radius: 50%;
-    }
+.client-image img {
+    border: 7px solid #f2f2f2;
+    border-radius: 50%;
+}
 
 .client-name {
     float: left;
