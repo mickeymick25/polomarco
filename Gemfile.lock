@@ -37,7 +37,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
-    autoprefixer-rails (5.1.4)
+    autoprefixer-rails (5.1.5)
       execjs
       json
     bcrypt (3.1.10)
@@ -74,20 +74,15 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
+    excon (0.44.1)
     execjs (2.3.0)
     figaro (1.1.0)
       thor (~> 0.14)
     font-awesome-sass (4.3.1)
       sass (~> 3.2)
-    gibbon (1.1.4)
-      httparty
-      multi_json (>= 1.3.4)
     globalid (0.3.2)
       activesupport (>= 4.1.0)
     hike (1.2.3)
-    httparty (0.13.3)
-      json (~> 1.8)
-      multi_xml (>= 0.5.2)
     hub (1.12.4)
     i18n (0.7.0)
     jbuilder (2.2.6)
@@ -103,11 +98,13 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mailchimp-api (2.0.6)
+      excon (>= 0.16.0)
+      json (>= 1.7.7)
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
     multi_json (1.10.1)
-    multi_xml (0.5.5)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
@@ -213,10 +210,10 @@ DEPENDENCIES
   devise
   figaro
   font-awesome-sass
-  gibbon
   hub
   jbuilder (~> 2.0)
   jquery-rails
+  mailchimp-api
   owlcarousel-rails
   pg
   pundit

@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'font-awesome-sass'
 gem 'owlcarousel-rails'
 gem 'figaro'
-gem 'gibbon'
+gem 'mailchimp-api'
 
 group :development, :test do
   gem 'byebug'

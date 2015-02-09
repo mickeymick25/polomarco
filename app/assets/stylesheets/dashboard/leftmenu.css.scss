@@ -1,0 +1,91 @@
+/* General styles for all menus */
+.col-md-3.leftmenuholder{
+	padding: 0;
+}
+
+.cbp-spmenu {
+	background: #2A2E33;
+}
+
+.cbp-spmenu h3 {
+	color: #E6E8EB;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #212429;
+}
+/* */
+.cbp-spmenu a {
+	display: block;
+	color: #7E868C;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+	background: #212429;
+	color: #E6E8EB;
+}
+
+.cbp-spmenu a:active {
+	background: #212429;
+	color: #E6E8EB;
+}
+//
+.cbp-spmenu-vertical {
+	width: 100%;
+	height: 100%;
+	top: 51px;
+	z-index: 1;
+	border-bottom: 1px solid #212429;
+}
+
+.cbp-spmenu-vertical a {
+	/*border-bottom: 1px solid #212429;*/
+	padding: 1em;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -240px;
+}
+
+.cbp-spmenu-right {
+	right: -240px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+}
+/* Transitions */
+
+
+.cbp-spmenu,
+.cbp-spmenu-push
+{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}

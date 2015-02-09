@@ -24,9 +24,12 @@
       <%= yield %>
     </main>
 
-    <footer class="footer" id="footer">
-      <%= render 'layouts/footer' %>
-    </footer>
+    <% if user_signed_in? %>
     
+    <% else %>
+      <footer class="footer" id="footer">
+        <%= render 'layouts/footer' %>
+      </footer>
+    <% end %>
   </body>
 </html>
