@@ -1,28 +1,55 @@
 <div class="authform">
-  <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :role => 'form'}) do |f| %>
-    <h3>Se connecter à Polo & Marco</h3>
+
+  <div class="formHeader">
+    <%= image_tag "logo.png", :title => "logo"%>
+  </div>
+
+  <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :role => 'form'}) do |f| %>  
+    <h3>Se connecter à<br/>Polo & Marco</h3>
     <%= devise_error_messages! %>
     <div class="form-group">
+      <!--
       <%- if devise_mapping.registerable? %>
         <%= link_to 'Sign up', new_registration_path(resource_name), class: 'right'  %>
       <% end -%>
-      <%= f.label :email %>
-      <%= f.email_field :email, :autofocus => true, class: 'form-control' %>
+      -->
+
+      <span class="input input--hoshi">
+        <%= f.email_field :email, :autofocus => true, class: 'input__field input__field--hoshi' %>
+        <%= f.label(:email, {class:'input__label input__label--hoshi input__label--hoshi-color-2'}) do %>
+          <span class="input__label-content input__label-content--hoshi">Email</span>
+        <% end %>
+      </span>
+      
+      <span class="input input--hoshi">
+        <%= f.password_field :password, class: 'input__field input__field--hoshi' %>
+        <%= f.label(:password, {class:'input__label input__label--hoshi input__label--hoshi-color-2'}) do %>
+          <span class="input__label-content input__label-content--hoshi">Password</span>
+        <% end %>
+      </span>
     </div>
-    <div class="form-group">
+      <%= f.submit "S'identifier", :class => 'button btn btn-custom' %>
+
       <%- if devise_mapping.recoverable? %>
-        <%= link_to "Forgot password?", new_password_path(resource_name), class: 'right' %>
-      <% end -%>
-      <%= f.label :password %>
-      <%= f.password_field :password, class: 'form-control' %>
-    </div>
-      <%= f.submit 'Sign in', :class => 'button right' %>
-      <% if devise_mapping.rememberable? -%>
+        <%= link_to "Mot de passe oublié ?", new_password_path(resource_name), class: '' %>
+      <% end -%> 
+
+     <!--  
+     <% if devise_mapping.rememberable? -%>
         <div class="checkbox" style="width:150px">
           <label>
             <%= f.check_box :remember_me %> Remember me
           </label>
         </div>
       <% end -%>
+      -->
   <% end %>
+
+  <div class="divider"></div>
+
+  <div class="formFooter">
+    <%- if devise_mapping.registerable? %>
+      <%= link_to "S'enregistrer", new_registration_path(resource_name), class: 'button btn btn-secondary'  %>
+    <% end -%>
+  </div>
 </div>

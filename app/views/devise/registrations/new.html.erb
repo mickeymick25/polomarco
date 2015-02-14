@@ -1,23 +1,57 @@
 <div class="authform">
+
+  <div class="formHeader">
+    <%= image_tag "logo.png", :title => "logo"%>
+  </div>
+
   <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :role => 'form'}) do |f| %>
-    <h3>Sign up</h3>
+    <h3>Inscrivez-vous et analyser vos data.</h3>
     <%= devise_error_messages! %>
+    
     <div class="form-group">
-      <%= f.label :name %>
-      <%= f.text_field :name, :autofocus => true, class: 'form-control' %>
+      <div class="input input--hoshi">
+        <%= f.text_field :name, :autofocus => true, class: 'input__field input__field--hoshi' %>
+        <%= f.label(:name, {class:'input__label input__label--hoshi input__label--hoshi-color-2'}) do %>
+          <span class="input__label-content input__label-content--hoshi">Nom</span>
+        <% end %>
+      </div>
     </div>
+
     <div class="form-group">
-      <%= f.label :email %>
-      <%= f.email_field :email, class: 'form-control' %>
+      <div class="input input--hoshi">
+        <%= f.email_field :email, class: 'input__field input__field--hoshi' %>
+        <%= f.label(:email, {class:'input__label input__label--hoshi input__label--hoshi-color-2'}) do %>
+            <span class="input__label-content input__label-content--hoshi">Email</span>
+        <% end %>
+      </div>
     </div>
+    
     <div class="form-group">
-      <%= f.label :password %>
-      <%= f.password_field :password, class: 'form-control' %>
+      <div class="input input--hoshi">
+        <%= f.password_field :password, class: 'input__field input__field--hoshi' %>
+        <%= f.label(:password, {class:'input__label input__label--hoshi input__label--hoshi-color-2'}) do %>
+            <span class="input__label-content input__label-content--hoshi">Mot de passe</span>
+        <% end %>
+      </div>
     </div>
+    
     <div class="form-group">
-      <%= f.label :password_confirmation %>
-      <%= f.password_field :password_confirmation, class: 'form-control' %>
+      <div class="input input--hoshi">
+        <%= f.password_field :password_confirmation, class: 'input__field input__field--hoshi' %>
+        <%= f.label(:password_confirmation, {class:'input__label input__label--hoshi input__label--hoshi-color-2'}) do %>
+          <span class="input__label-content input__label-content--hoshi">Confirmation de mot de passe</span>
+        <% end %>
+      </div>
     </div>
-     <%= f.submit 'Sign up', :class => 'button right' %>
+     <%= f.submit 'Sign up', :class => 'button btn btn-custom' %>
   <% end %>
+
+    <div class="divider"></div>
+
+    <div class="formFooter">
+    <%- if devise_mapping.registerable? %>
+      <%= link_to "S'identifier", new_user_session_path, class: 'button btn btn-secondary'  %>
+    <% end -%>
+  </div>
+
 </div>

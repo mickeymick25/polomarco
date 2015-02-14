@@ -13,9 +13,24 @@
  *= require animate
  *= require owl.carousel
  *= require owl.theme
- *= require_tree .
+ * require_tree .
  *= require_self
  */
 
+ // import the CSS framework
+ /* ------------------------- calling bootstrap-sprockets */
+ @import "bootstrap-sprockets";
+ /*------------------------- calling bootstrap */
+ @import "bootstrap";
+ /*------------------------- calling font-awesome-sprockets */
  @import "font-awesome-sprockets";
+/*------------------------- calling font-awesome */
  @import "font-awesome";
+/*------------------------- calling common/common */
+ @import "common/common";
+/*------------------------- calling framework_and_overrides */
+ @import "framework_and_overrides";
+/*------------------------- calling dashboard */
+ @import "dashboard/dashboard";
+/*------------------------- calling Landing */
+ @import "landing/landing";

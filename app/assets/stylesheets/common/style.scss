@@ -1,6 +1,5 @@
 /* Lamap App Landing Page Light version Stylesheet
 ====================================================== */
-@import 'common';
 
 /* HTML 5 reset & Bootstrap fixes */
 html, body, div, span, object, iframe,
@@ -82,9 +81,9 @@ a:hover {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
-    line-height: 1.8em;
+    line-height: 1.4em;
     margin-bottom: 10px;
 }
 

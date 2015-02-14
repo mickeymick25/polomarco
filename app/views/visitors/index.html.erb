@@ -13,7 +13,7 @@
 						<h1>Solution de cartographie<br/>pour l'environnement ambiant</h1>
 						<ul class="list-inline">
 							<li>
-								<a href="#polo" class="btn btn-custom">
+								<a href="#polo" class="btn btn-primary">
 									<i class="fa fa-align-left"></i>
 									Discover
 								</a>
@@ -190,7 +190,7 @@
 					Polo & Marco vous permet de vous recentrer sur votre coeur de métier là où est votre véritable création de valeur.
 					</p>
 
-					<%= link_to (new_user_session_path), :class=>"btn btn-custom" do %>
+					<%= link_to (new_user_session_path), :class=>"btn btn-primary" do %>
 						<i class="fa fa-sign-in"></i>S'identifier
 					<% end %>
 					
@@ -433,7 +433,7 @@
 					<form action="subscribe" method="post" class="form-inline">
 					    <input type="hidden" name="list_id" value="<%= ENV['MAILCHIMP_LIST_ID'] %>"/>
 					    <input type="email" name="email" placeholder="Votre adresse e-mail"/>
-					    <input type="submit" class="submit btn btn-secondary btn-send" value="Être informé"/>
+					    <input type="submit" class="submit btn btn-custom btn-send" value="Être informé"/>
 					</form>
 					
 					<div class="tex-center">
