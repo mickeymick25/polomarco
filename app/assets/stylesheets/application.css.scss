@@ -14,7 +14,7 @@
  *= require owl.carousel
  *= require owl.theme
  * require_tree .
- *= require_self
+ * require_self
  */
 
  // import the CSS framework
