@@ -15705,6 +15705,9 @@ button.close {
 /*------------------------- calling dashboard */
 /* Polo&Marco App Dashboard Page variables Sass Stylesheet
 ====================================================== */
+/*
+* require jasny-bootstrap
+*/
 /* General styles for all menus */
 /* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .col-md-3.leftmenuholder {
@@ -17661,19 +17664,24 @@ h4 {
   border-radius: 3px;
 }
 
-/* line 27, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 28, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+.newsletter input:focus, input:-webkit-autofill {
+  background-color: transparent !important;
+}
+
+/* line 32, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter .submit {
   width: inherit;
 }
 
-/* line 31, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 36, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter #success_page p,
 .newsletter #message {
   color: #ffffff;
   font-size: 18px;
 }
 
-/* line 37, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 42, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .screens .owl-prev {
   position: absolute;
   left: -27px;
@@ -17681,7 +17689,7 @@ h4 {
   margin-top: -26px;
 }
 
-/* line 43, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 48, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .screens .owl-next {
   position: absolute;
   right: 5px;

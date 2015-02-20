@@ -24,6 +24,11 @@
     color: #fff;
     border-radius: 3px;
 }
+
+.newsletter input:focus, input:-webkit-autofill {
+    background-color: transparent !important;
+}
+
 .newsletter .submit {
     width: inherit;
 }

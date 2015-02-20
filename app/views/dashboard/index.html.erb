@@ -1,16 +1,18 @@
 <!-- Begin main Above the fold Header -->
-<div class="row">
-	<div class="col-md-3 leftmenuholder">
-		<%= render 'dashboard/leftmenu' %>
-	</div>
-	<div class="col-md-9 dashholder">
-		<div class="section_title grey">
-			<h2>Hello <%= current_user.name %></h2>
-			<p>Welcome on your dashboard !</p>
+<div class="container-fluid">
+	<div class="row">
+		
+		<div class="col-md-3 leftmenuholder">
+			<%= render 'dashboard/leftmenu' %>
+		</div>
 
-			<button class="cbp-spmenu-trigger">Show/Hide Left Push Menu</button>
+		<div class="col-md-9">
+			<div class="section_title grey">
+				<h2>Hello <%= current_user.name %></h2>
+				<p>Welcome on your dashboard !</p>
 
-			<p><%= link_to "Se déconnecter", destroy_user_session_path, :method=>'delete' %></p>
+				<p><%= link_to "Se déconnecter", destroy_user_session_path, :method=>'delete' %></p>
+			</div>
 		</div>
 	</div>
 </div>
