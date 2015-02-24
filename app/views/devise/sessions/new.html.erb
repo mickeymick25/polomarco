@@ -29,11 +29,14 @@
       </span>
     </div>
       <%= f.submit "S'identifier", :class => 'button btn btn-custom' %>
-
+      
+      
       <%- if devise_mapping.recoverable? %>
-        <%= link_to "Mot de passe oublié ?", new_password_path(resource_name), class: '' %>
+      <div style="margin-top:10px;@">
+        <%= link_to "Mot de passe oublié ?", new_password_path(resource_name), class: 'btn btn-secondary' %>
+      </div>
       <% end -%> 
-
+      
      <!--  
      <% if devise_mapping.rememberable? -%>
         <div class="checkbox" style="width:150px">

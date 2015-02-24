@@ -1,124 +1,334 @@
-//= require classie
-
-// functions
-function deployMenu(body,menuLeft, showLeftPush){
-	showLeftPush.onclick = function() {
-		classie.toggle( this, 'active' );
-		classie.toggle( body, 'cbp-spmenu-push-toright' );
-		classie.toggle( menuLeft, 'cbp-spmenu-open' );
-		//disableOther( 'showLeftPush' );
-	};
-}
-
-function onMenuResize(){
-	var _windowheight = $(window).height();
-	var _navHeight = $('.navbar').height();
-	var _viewportHeight = _windowheight - _navHeight;
-
-	$('.cbp-spmenu').css('height', _viewportHeight);
-	$('.dashholder').css('min-height', _viewportHeight)
-}
-// Launch stuffs
-$(document).ready(function() {
-
-	$( 'body' ).on('click', '.cbp-spmenu-trigger', function(e){
-		$('.leftmenuholder').toggleClass('hide');
-		$('.dashholder').toggleClass('col-md-9');
-		$('.dashholder').toggleClass('col-md-12');
-	});
-
-	$(window).resize(function(){onMenuResize();});
-	onMenuResize();
-
-});/**
- * gnmenu.js v1.0.0
- * http://www.codrops.com
+/**
+ * Material Menu
+ *
+ * The functionality for an off canvas menu, inspired by Google's material
+ * design.
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2013, Codrops
- * http://www.codrops.com
+ *
+ * Copyright 2014, Call Me Nick
+ * http://callmenick.com
  */
-;( function( window ) {
-	
-	'use strict';
 
-	// http://stackoverflow.com/a/11381730/989439
-	function mobilecheck() {
-		var check = false;
-		(function(a){if(/(android|ipad|playbook|silk|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))check = true})(navigator.userAgent||navigator.vendor||window.opera);
-		return check;
-	}
 
-	function gnMenu( el, options ) {	
-		this.el = el;
-		this._init();
-	}
+(function( window ) {
 
-	gnMenu.prototype = {
-		_init : function() {
-			this.trigger = this.el.querySelector( 'a.gn-icon-menu' );
-			this.menu = this.el.querySelector( 'nav.gn-menu-wrapper' );
-			this.isMenuOpen = false;
-			this.eventtype = mobilecheck() ? 'touchstart' : 'click';
-			this._initEvents();
+  "use strict";
 
-			var self = this;
-			this.bodyClickFn = function() {
-				self._closeMenu();
-				this.removeEventListener( self.eventtype, self.bodyClickFn );
-			};
-		},
-		_initEvents : function() {
-			var self = this;
+  //////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+  //
+  // T R A N S I T I O N    E N D    E V E N T S
+  // http://davidwalsh.name/css-animation-callback
+  //
+  //////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
 
-			if( !mobilecheck() ) {
-				this.trigger.addEventListener( 'mouseover', function(ev) { self._openIconMenu(); } );
-				this.trigger.addEventListener( 'mouseout', function(ev) { self._closeIconMenu(); } );
-			
-				this.menu.addEventListener( 'mouseover', function(ev) {
-					self._openMenu(); 
-					document.addEventListener( self.eventtype, self.bodyClickFn ); 
-				} );
-			}
-			this.trigger.addEventListener( this.eventtype, function( ev ) {
-				ev.stopPropagation();
-				ev.preventDefault();
-				if( self.isMenuOpen ) {
-					self._closeMenu();
-					document.removeEventListener( self.eventtype, self.bodyClickFn );
-				}
-				else {
-					self._openMenu();
-					document.addEventListener( self.eventtype, self.bodyClickFn );
-				}
-			} );
-			this.menu.addEventListener( this.eventtype, function(ev) { ev.stopPropagation(); } );
-		},
-		_openIconMenu : function() {
-			classie.add( this.menu, 'gn-open-part' );
-		},
-		_closeIconMenu : function() {
-			classie.remove( this.menu, 'gn-open-part' );
-		},
-		_openMenu : function() {
-			if( this.isMenuOpen ) return;
-			classie.add( this.trigger, 'gn-selected' );
-			this.isMenuOpen = true;
-			classie.add( this.menu, 'gn-open-all' );
-			this._closeIconMenu();
-		},
-		_closeMenu : function() {
-			if( !this.isMenuOpen ) return;
-			classie.remove( this.trigger, 'gn-selected' );
-			this.isMenuOpen = false;
-			classie.remove( this.menu, 'gn-open-all' );
-			this._closeIconMenu();
-		}
-	}
+  function whichTransitionEvent(){
+    var t,
+        el = document.createElement("fakeelement");
 
-	// add to global namespace
-	window.gnMenu = gnMenu;
+    var transitions = {
+      "transition"      : "transitionend",
+      "OTransition"     : "oTransitionEnd",
+      "MozTransition"   : "transitionend",
+      "WebkitTransition": "webkitTransitionEnd"
+    }
 
-} )( window );
+    for (t in transitions){
+      if (el.style[t] !== undefined){
+        return transitions[t];
+      }
+    }
+  }
+  var transitionEvent = whichTransitionEvent();
+
+  //////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+  //
+  // H E L P E R    F U N C T I O N S
+  //
+  //////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * Helper function `getPosition`
+   *
+   * Get's the position based on event/element.
+   */
+
+  function getPosition(e) {
+    var posx = 0;
+    var posy = 0;
+    if (!e) var e = window.event;
+    if (e.pageX || e.pageY) {
+      posx = e.pageX;
+      posy = e.pageY;
+    }
+    else if (e.clientX || e.clientY) {
+      posx = e.clientX + document.body.scrollLeft
+        + document.documentElement.scrollLeft;
+      posy = e.clientY + document.body.scrollTop
+        + document.documentElement.scrollTop;
+    }
+    return {
+      x: posx,
+      y: posy
+    }
+  }
+
+  /**
+   * Helper function `getOffsetRect`
+   *
+   * Get's the position based on event/element.
+   */
+
+  function getOffsetRect(elem) {
+    var box = elem.getBoundingClientRect()
+     
+    var body = document.body;
+    var docElem = document.documentElement;
+     
+    var scrollTop = window.pageYOffset || docElem.scrollTop || body.scrollTop;
+    var scrollLeft = window.pageXOffset || docElem.scrollLeft || body.scrollLeft;
+     
+    var clientTop = docElem.clientTop || body.clientTop || 0;
+    var clientLeft = docElem.clientLeft || body.clientLeft || 0;
+     
+    var top  = box.top + scrollTop - clientTop;
+    var left = box.left + scrollLeft - clientLeft;
+     
+    return {
+      x: Math.round(left),
+      y: Math.round(top)
+    }
+  }
+
+  //////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+  //
+  // M E N U    C O M P O N E N T
+  //
+  //////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * Menu
+   *
+   * Constructor function. Cache some vars and get ready for takeoff and menu
+   * magic.
+   */
+
+
+  function Menu() {
+    // var body        = $('body'),
+    //  wrapper        = $(".wrapper"),
+    //  toggle         = $("#mm-menu-toggle"),
+    //  menu           = $("#mm-menu"),
+    //  menuItems      = $("#mm-menu li"),
+    //  menuItemLinks  = $("#mm-menu a"),
+    //  menuPosition   = "off";
+    //this.mask           = document.createElement("div");
+    //this.mask.className = "mm-menu-mask";
+
+    //document.body.appendChild(this.mask);
+    this._init();
+  }
+
+  /**
+   * Menu `_init`
+   *
+   * Initialise some stuff for the menu, like transition/animation delays and
+   * all that funky jazz. Then get ready for events.
+   */
+
+  Menu.prototype._init = function() {
+    this._initToggleEvents();
+    this._initItemTransitions();
+    this._initTouchEffect();
+    //this._initMaskEvents();
+    
+    this.body           = $('body'),
+    this.wrapper        = $(".wrapper"),
+    this.toggle         = $(".mm-menu-toggle"),
+    this.menu           = $(".mm-menu"),
+    this.menuItems      = $(".mm-menu li"),
+    this.menuItemLinks  = $(".mm-menu a"),
+    this.menuPosition   = "off";
+  };
+
+  /**
+   * Menu `_initEvents`
+   *
+   * Get ready for the events taking place. Mainly just the pressing of the
+   * toggle button.
+   */
+
+  Menu.prototype._initToggleEvents = function() {
+    var scope = this;
+    console.log('Into :: _initToggleEvents');
+    
+    $('#mm-menu-toggle').on('click', function() {
+    //toggle.on('click', function(){
+      (scope.menuPosition == "off") ? scope._toggleMenuOn() : scope._toggleMenuOff();
+    });
+  };
+
+  /**
+   * Menu `_toggleMenuOn`
+   *
+   * Toggles the menu into "on" position.
+   */
+
+  Menu.prototype._toggleMenuOn = function() {
+    //var scope = this;
+    $('body').addClass("mm-menu-open");
+    $(".wrapper").addClass("mm-menu-open");
+    $(".mm-menu-toggle").addClass("active");
+    $(".mm-menu").addClass("active");
+
+    for ( var i = 0; i < $(".mm-menu > ul > li").length; i++ ) {
+      $(".mm-menu > ul").find($('li')[i]).addClass("in-view");
+
+      console.log('i :: '+ i);
+    }
+
+    //this.mask.classList.add("active");
+    this.menuPosition = "on";
+  };
+
+  /**
+   * Menu `_toggleMenuOff`
+   *
+   * Toggles the menu into "off" position.
+   */
+
+  Menu.prototype._toggleMenuOff = function() {
+    //var scope = this;
+
+    $('body').removeClass("mm-menu-open");
+    $(".wrapper").removeClass("mm-menu-open");
+    $(".mm-menu-toggle").removeClass("active");
+    $(".mm-menu").removeClass("active");
+    
+    for ( var i = 0; i < $(".mm-menu > ul > li").length; i++ ) {
+      $(".mm-menu > ul").find($('li')[i]).removeClass("in-view");
+    }
+
+    //this.mask.classList.remove("active");
+    this.menuPosition = "off";
+  };
+
+  /**
+   * Menu `_initItemTransitions`
+   *
+   * Initialise the item transistions. Items transition into view as if they
+   * are being pulled one by one, giving a neat effect. For this to take place,
+   * we need to add a necessary class to each item menu. The classes are
+   * named sequentially, and more can be added in the CSS.
+   */
+
+  Menu.prototype._initItemTransitions = function() {
+    var scope = this;
+    var len = $("#mm-menu > ul > li").length;
+    for ( var i = 0; i < len; i++ ) {
+      var num = i+1;
+      var menuItem = $("#mm-menu > ul > li")[i];
+      this._itemTransitionHandler( menuItem, num );
+    }
+  };
+
+  /**
+   * Menu `_itemTransitionHandler`
+   *
+   * Handles the item transitions, appending the correct class onto each
+   * element. Classes follow an "item-n" conventin, where n is the number of
+   * the item in the list. See CSS, and add more in the CSS if you need.
+   *
+   * @param {HTMLElement} menuItem The menu item in question
+   * @param {Number} num The number to append to the class name
+   */
+
+  Menu.prototype._itemTransitionHandler = function( menuItem, num ) {
+    $("#mm-menu > ul > li").addClass("item-"+num);
+  };
+
+  /**
+   * Menu `_initTouchEffect`
+   *
+   * Initialises and gets the touch effect ready for action. The touch effect
+   * is a material design style that simulates some kind of pressure when a
+   * user touches a link, and creates a rippling type effect spanning from the
+   * touch point go outward.
+   */
+
+  Menu.prototype._initTouchEffect = function() {
+    var num = $("#mm-menu a").length;
+    for ( var i = 0; i < num; i++ ) {
+      var menuItemLink = $("#mm-menu a")[i];
+      this._touchEffectHandler( menuItemLink );
+    }
+  };
+
+  /**
+   * Menu `_touchEffectHandler`
+   *
+   * Handler for the touch effect for each particular item in the menu. Does a
+   * lot of math calculations to position the actual origin of the animation,
+   * animating it outwards.
+   *
+   * @param {HTMLElement} menuItemLink The menu item link in question
+   */
+
+  Menu.prototype._touchEffectHandler = function( menuItemLink ) {
+    var elWidth = menuItemLink.offsetWidth,
+        elHeight = menuItemLink.offsetHeight,
+        touchEffectSize = Math.max(elWidth, elHeight) * 2;
+    
+    var touchEffectElement = document.createElement("span");
+    touchEffectElement.className = "mm-menu__link--touch-effect";
+    touchEffectElement.style.width = touchEffectSize+"px";
+    touchEffectElement.style.height = touchEffectSize+"px";
+    menuItemLink.insertBefore( touchEffectElement, menuItemLink.firstChild );
+
+    menuItemLink.addEventListener( "click", function(e) {
+      var relX = getPosition(e).x - getOffsetRect(this).x,
+          relY = getPosition(e).y - getOffsetRect(this).y;
+
+      touchEffectElement.style.top = relY+"px";
+      touchEffectElement.style.left = relX+"px";
+      touchEffectElement.style.marginTop = -(touchEffectSize/2)+"px";
+      touchEffectElement.style.marginLeft = -(touchEffectSize/2)+"px";
+      touchEffectElement.classList.add("animating");
+    });
+
+
+    touchEffectElement.addEventListener( transitionEvent, function() {
+      this.classList.remove("animating");
+    });
+  };
+
+  /**
+   *
+   */
+
+  Menu.prototype._initMaskEvents = function() {
+    var scope = this;
+    this.mask.addEventListener( "click", function(e) {
+      e.preventDefault();
+      (scope.menuPosition == "on") ? scope._toggleMenuOff() : false;
+    });
+  };
+
+  /**
+   * Add to global namespace.
+   */
+
+  window.Menu = Menu;
+
+})( window );
+
+$(document).ready(function() {
+  var menu = new Menu;
+});

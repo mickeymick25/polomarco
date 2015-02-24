@@ -95,8 +95,9 @@
   -webkit-appearance: none; /* for box shadows to show on iOS */
 }
 
-.input__field:focus {
+.input__field:focus, input:-webkit-autofill {
   outline: none;
+  background-color: transparent !important;
 }
 
 .input__label {
@@ -157,6 +158,8 @@
   text-align: left;
   pointer-events: none;
 }
+
+
 
 .input__label-content--hoshi {
   position: absolute;
