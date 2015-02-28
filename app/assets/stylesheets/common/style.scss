@@ -132,3 +132,20 @@ figure img {
 .owl-wrapper-outer{
     overflow: hidden !important;
 }
+
+.dropdown-menu.extended{
+    max-width: 320px !important;
+    min-width: 160px !important;
+    width: 300px !important;
+    padding: 0 10px;
+}
+
+.badge{
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    z-index: 0;
+}
+.badge.bg-success{
+    background:$btn-color-primary;
+}

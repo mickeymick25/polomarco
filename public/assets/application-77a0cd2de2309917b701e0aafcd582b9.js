@@ -15740,13 +15740,16 @@ $(document).ready(function() {
 
 
   function Menu() {
-    // var body        = $('body'),
-    //  wrapper        = $(".wrapper"),
-    //  toggle         = $("#mm-menu-toggle"),
-    //  menu           = $("#mm-menu"),
-    //  menuItems      = $("#mm-menu li"),
-    //  menuItemLinks  = $("#mm-menu a"),
-    //  menuPosition   = "off";
+  
+    this.body           = $('body');
+    this.wrapper        = $(".wrapper");
+    this.toggle         = $("#mm-menu-toggle");
+    this.menu           = $("#mm-menu");
+    // this.menuItems      = $("mm-menu li");
+    this.menuItems      = $(".mm-menu > ul > li");
+    this.menuItemLinks  = $("#mm-menu a");
+    this.menuPosition   = "off";
+
     //this.mask           = document.createElement("div");
     //this.mask.className = "mm-menu-mask";
 
@@ -15766,14 +15769,7 @@ $(document).ready(function() {
     this._initItemTransitions();
     this._initTouchEffect();
     //this._initMaskEvents();
-    
-    this.body           = $('body'),
-    this.wrapper        = $(".wrapper"),
-    this.toggle         = $(".mm-menu-toggle"),
-    this.menu           = $(".mm-menu"),
-    this.menuItems      = $(".mm-menu li"),
-    this.menuItemLinks  = $(".mm-menu a"),
-    this.menuPosition   = "off";
+
   };
 
   /**
@@ -15785,10 +15781,8 @@ $(document).ready(function() {
 
   Menu.prototype._initToggleEvents = function() {
     var scope = this;
-    console.log('Into :: _initToggleEvents');
     
-    $('#mm-menu-toggle').on('click', function() {
-    //toggle.on('click', function(){
+    this.toggle.on('click', function() {
       (scope.menuPosition == "off") ? scope._toggleMenuOn() : scope._toggleMenuOff();
     });
   };
@@ -15801,16 +15795,15 @@ $(document).ready(function() {
 
   Menu.prototype._toggleMenuOn = function() {
     //var scope = this;
-    $('body').addClass("mm-menu-open");
-    $(".wrapper").addClass("mm-menu-open");
-    $(".mm-menu-toggle").addClass("active");
-    $(".mm-menu").addClass("active");
+    this.body.addClass("mm-menu-open");
+    this.wrapper.addClass("mm-menu-open");
+    this.toggle.addClass("active");
+    this.menu.addClass("active");
 
-    for ( var i = 0; i < $(".mm-menu > ul > li").length; i++ ) {
-      $(".mm-menu > ul").find($('li')[i]).addClass("in-view");
-
-      console.log('i :: '+ i);
-    }
+    // for ( var i = 0; i < $(".mm-menu > ul > li").length; i++ ) {
+    //   $(".mm-menu > ul").find($('li')[i]).addClass("in-view");
+    // }
+    $(".mm-menu > ul").find($('li')).addClass("in-view");
 
     //this.mask.classList.add("active");
     this.menuPosition = "on";
@@ -15825,14 +15818,15 @@ $(document).ready(function() {
   Menu.prototype._toggleMenuOff = function() {
     //var scope = this;
 
-    $('body').removeClass("mm-menu-open");
-    $(".wrapper").removeClass("mm-menu-open");
-    $(".mm-menu-toggle").removeClass("active");
-    $(".mm-menu").removeClass("active");
+    this.body.removeClass("mm-menu-open");
+    this.wrapper.removeClass("mm-menu-open");
+    this.toggle.removeClass("active");
+    this.menu.removeClass("active");
     
-    for ( var i = 0; i < $(".mm-menu > ul > li").length; i++ ) {
-      $(".mm-menu > ul").find($('li')[i]).removeClass("in-view");
-    }
+    // for ( var i = 0; i < $(".mm-menu > ul > li").length; i++ ) {
+    //   $(".mm-menu > ul").find($('li')[i]).removeClass("in-view");
+    // }
+    $(".mm-menu > ul").find($('li')).removeClass("in-view");
 
     //this.mask.classList.remove("active");
     this.menuPosition = "off";
@@ -15849,10 +15843,11 @@ $(document).ready(function() {
 
   Menu.prototype._initItemTransitions = function() {
     var scope = this;
-    var len = $("#mm-menu > ul > li").length;
+    var len = $(".mm-menu > ul > li").length;
+
     for ( var i = 0; i < len; i++ ) {
       var num = i+1;
-      var menuItem = $("#mm-menu > ul > li")[i];
+      var menuItem = $(".mm-menu > ul > li")[i];
       this._itemTransitionHandler( menuItem, num );
     }
   };
@@ -15869,7 +15864,7 @@ $(document).ready(function() {
    */
 
   Menu.prototype._itemTransitionHandler = function( menuItem, num ) {
-    $("#mm-menu > ul > li").addClass("item-"+num);
+    //menuItem.addClass("item-"+num);
   };
 
   /**
@@ -15882,9 +15877,9 @@ $(document).ready(function() {
    */
 
   Menu.prototype._initTouchEffect = function() {
-    var num = $("#mm-menu a").length;
+    var num = $(".mm-menu a").length;
     for ( var i = 0; i < num; i++ ) {
-      var menuItemLink = $("#mm-menu a")[i];
+      var menuItemLink = $(".mm-menu a")[i];
       this._touchEffectHandler( menuItemLink );
     }
   };
