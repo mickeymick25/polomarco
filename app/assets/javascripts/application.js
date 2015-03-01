@@ -12,6 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require d3
+//= require d3.floorplan.min
+//= require c3.min
 //= require owl.carousel
 //= require turbolinks
 // require bootstrap-sprockets

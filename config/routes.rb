@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
 	authenticated :user do
 		root to: "dashboard#index", as: :authenticated_root
+		get 'dashboard/data', to: 'dashboard#data', :defaults => { :format => 'json' }
 	end
 
  	root to: 'visitors#index'

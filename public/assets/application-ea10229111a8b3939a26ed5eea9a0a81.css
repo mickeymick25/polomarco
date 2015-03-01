@@ -3338,6 +3338,7 @@ Copyright (c) 2014 Daniel Eden
 	min-height: 150px;
 	background: url(AjaxLoader.gif) no-repeat center center
 }
+.c3 svg{font:10px sans-serif}.c3 line,.c3 path{fill:none;stroke:#000}.c3 text{-webkit-user-select:none;-moz-user-select:none;user-select:none}.c3-bars path,.c3-event-rect,.c3-legend-item-tile,.c3-xgrid-focus,.c3-ygrid{shape-rendering:crispEdges}.c3-chart-arc path{stroke:#fff}.c3-chart-arc text{fill:#fff;font-size:13px}.c3-grid line{stroke:#aaa}.c3-grid text{fill:#aaa}.c3-xgrid,.c3-ygrid{stroke-dasharray:3 3}.c3-text.c3-empty{fill:gray;font-size:2em}.c3-line{stroke-width:1px}.c3-circle._expanded_{stroke-width:1px;stroke:#fff}.c3-selected-circle{fill:#fff;stroke-width:2px}.c3-bar{stroke-width:0}.c3-bar._expanded_{fill-opacity:.75}.c3-chart-arcs-title{dominant-baseline:middle;font-size:1.3em}.c3-target.c3-focused{opacity:1}.c3-target.c3-focused path.c3-line,.c3-target.c3-focused path.c3-step{stroke-width:2px}.c3-target.c3-defocused{opacity:.3!important}.c3-region{fill:#4682b4;fill-opacity:.1}.c3-brush .extent{fill-opacity:.1}.c3-legend-item{font-size:12px}.c3-legend-item-hidden{opacity:.15}.c3-legend-background{opacity:.75;fill:#fff;stroke:#d3d3d3;stroke-width:1}.c3-tooltip-container{z-index:10}.c3-tooltip{border-collapse:collapse;border-spacing:0;background-color:#fff;empty-cells:show;width:auto;-webkit-box-shadow:7px 7px 12px -9px #777;-moz-box-shadow:7px 7px 12px -9px #777;box-shadow:7px 7px 12px -9px #777;opacity:.9}.c3-tooltip tr{border:1px solid #CCC}.c3-tooltip th{background-color:#aaa;font-size:14px;padding:2px 5px;text-align:left;color:#FFF}.c3-tooltip td{font-size:13px;padding:3px 6px;background-color:#fff;border-left:1px dotted #999;color:#000}.c3-tooltip td>span{display:inline-block;width:10px;height:10px;margin-right:6px}.c3-tooltip td.value{text-align:right}.c3-area{stroke-width:0;opacity:.2}.c3-chart-arcs .c3-chart-arcs-background{fill:#e0e0e0;stroke:none}.c3-chart-arcs .c3-chart-arcs-gauge-unit{fill:#000;font-size:16px}.c3-chart-arcs .c3-chart-arcs-gauge-max,.c3-chart-arcs .c3-chart-arcs-gauge-min{fill:#777}.c3-chart-arc .c3-gauge-value{fill:#000}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -3351,6 +3352,7 @@ Copyright (c) 2014 Daniel Eden
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+
 
 
 
@@ -14850,7 +14852,7 @@ button.close {
 /* Lamap App Landing Page Light version Stylesheet
 ====================================================== */
 /* HTML 5 reset & Bootstrap fixes */
-/* line 5, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 5, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -14873,12 +14875,12 @@ time, mark, audio, video {
   background: transparent;
 }
 
-/* line 27, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 27, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 html {
   font-size: 100%;
 }
 
-/* line 31, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 31, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 body {
   background-color: #fff;
   font-family: Open Sans, sans-serif;
@@ -14889,36 +14891,36 @@ body {
   position: relative;
 }
 
-/* line 41, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 41, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 46, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 46, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 ul,
 ol {
   padding-left: 0px;
 }
 
-/* line 51, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 51, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 ul li {
   list-style: none;
 }
 
-/* line 55, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 55, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 59, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 59, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 65, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 65, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 a {
   margin: 0;
   padding: 0;
@@ -14933,12 +14935,12 @@ a {
   transition: all .15s linear;
 }
 
-/* line 79, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 79, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 83, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 83, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 p {
   font-size: 14px;
   font-weight: 300;
@@ -14946,7 +14948,7 @@ p {
   margin-bottom: 10px;
 }
 
-/* line 90, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 90, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 button {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
@@ -14955,41 +14957,41 @@ button {
   transition: all .15s linear;
 }
 
-/* line 98, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 98, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
 }
 
-/* line 105, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 105, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *::-webkit-input-placeholder {
   color: white;
 }
 
-/* line 106, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 106, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *:-moz-placeholder {
   color: white;
 }
 
-/* line 107, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 107, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *::-moz-placeholder {
   color: white;
 }
 
-/* line 108, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 108, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *:-ms-input-placeholder {
   color: white;
 }
 
-/* line 110, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 110, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .btn:focus, .button-xs:focus,
 .btn:active,
 .button-xs:active {
   outline: none;
 }
 
-/* line 115, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 115, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *,
 *:before,
 *:after {
@@ -14998,24 +15000,24 @@ select:focus {
   border-sizing: border-box;
 }
 
-/* line 123, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 123, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 figure img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 128, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 128, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .nopadding {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* line 132, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 132, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .owl-wrapper-outer {
   overflow: hidden !important;
 }
 
-/* line 136, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 136, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .dropdown-menu.extended {
   max-width: 320px !important;
   min-width: 160px !important;
@@ -15023,7 +15025,7 @@ figure img {
   padding: 0 10px;
 }
 
-/* line 143, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 143, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge {
   position: absolute;
   top: 5px;
@@ -15031,19 +15033,19 @@ figure img {
   z-index: 0;
 }
 
-/* line 149, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 149, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge.bg-success {
   background: #ff9c00;
 }
 
 /*------------------------- calling common/color */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .nav-tabs > li > a:hover {
   background-color: #ff9c00;
   border-color: #ff9c00;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
@@ -15051,18 +15053,18 @@ figure img {
   border: 1px solid #0088cc;
 }
 
-/* line 15, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 15, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .features .feature .icon-container .icon {
   border: 1px solid #ff9c00;
 }
 
-/* line 19, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 19, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .btn-send,
 .newsletter input {
   border: 1px solid #ffffff;
 }
 
-/* line 24, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 24, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .btn-send:hover,
 .btn-send:active,
 .btn-custom:hover,
@@ -15076,24 +15078,24 @@ figure img {
   border-color: #CC7D00;
 }
 
-/* line 37, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 37, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .btn-slide,
 .features .feature:hover .icon-container .icon,
 .footer span.jobs {
   background-color: #ff9c00;
 }
 
-/* line 44, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 44, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .underline {
   border-top: 4px solid #ff9c00;
 }
 
-/* line 48, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 48, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .underline-small {
   border-top: 2px solid #ff9c00;
 }
 
-/* line 53, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 53, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-nav > li.current a,
@@ -15108,14 +15110,14 @@ ul.extra-features i,
   color: #ff9c00;
 }
 
-/* line 67, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 67, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .footer span.jobs:after {
   border-right-color: #ff9c00;
 }
 
 /*------------------------- calling common/button */
 /* Button Styles */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn, .button-xs {
   background: transparent;
   color: #fff;
@@ -15126,40 +15128,40 @@ ul.extra-features i,
   border-radius: 3px;
 }
 
-/* line 11, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn:hover, .button-xs:hover,
 .btn:focus,
 .button-xs:focus {
   color: #fff;
 }
 
-/* line 16, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 16, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn i, .button-xs i {
   padding-right: 5px;
 }
 
 /* btn primary */
-/* line 21, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 21, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-primary, .button-xs {
   border-color: #ff9c00;
   background-color: #ff9c00;
 }
 
-/* line 25, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 25, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-primary:hover, .button-xs:hover {
   border-color: #CC7D00;
   background-color: #CC7D00;
 }
 
 /* btn secondary */
-/* line 31, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 31, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn.btn-secondary, .btn-secondary.button-xs {
   width: 100%;
   border-color: #D4D4D4;
   background-color: #D4D4D4;
 }
 
-/* line 36, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 36, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn.btn-secondary:hover, .btn-secondary.button-xs:hover {
   border-color: transparent;
   border-color: #6E6E6E;
@@ -15167,21 +15169,21 @@ ul.extra-features i,
 }
 
 /* btn custom */
-/* line 43, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 43, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-custom {
   background-color: transparent;
   border-color: #FFF;
   border: 1px solid #FFF;
 }
 
-/* line 49, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 49, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-custom-border {
   background: transparent;
   border-color: #ff9c00;
   color: #ffffff;
 }
 
-/* line 56, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 56, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-send {
   height: 62px;
   width: inherit;
@@ -15189,7 +15191,7 @@ ul.extra-features i,
   vertical-align: top;
 }
 
-/* line 63, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 63, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-slide {
   width: 55px;
   height: 55px;
@@ -15206,7 +15208,7 @@ ul.extra-features i,
   transition: all .15s linear;
 }
 
-/* line 79, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 79, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .navbar-btn {
   margin: 0 auto;
   width: 51px;
@@ -15214,7 +15216,7 @@ ul.extra-features i,
 }
 
 /* Strokes */
-/* line 88, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 88, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .underline {
   display: inline-block;
   width: 160px;
@@ -15222,7 +15224,7 @@ ul.extra-features i,
   margin-top: 21px;
 }
 
-/* line 94, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 94, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .underline-small {
   display: inline-block;
   width: 160px;
@@ -15230,7 +15232,7 @@ ul.extra-features i,
   height: 1px;
 }
 
-/* line 101, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 101, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .divider {
   width: 100%;
   height: 1px;
@@ -15239,23 +15241,23 @@ ul.extra-features i,
 
 /*------------------------- calling common/heading */
 /* Heading Sizes */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h1 {
   font-size: 42px;
   font-weight: 300;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h2 {
   font-size: 38px;
 }
 
-/* line 11, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 15, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 15, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h4 {
   font-size: 18px;
   font-weight: 600;
@@ -15263,7 +15265,7 @@ h4 {
 }
 
 /*------------------------- calling common/authform */
-/* line 4, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 4, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform {
   background-color: #F5F5F5;
   padding-top: 0px;
@@ -15275,7 +15277,7 @@ h4 {
   border-right: 1px solid #E3E3E3;
 }
 
-/* line 16, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 16, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .formHeader {
   background-color: #FFF;
   border-radius: 10px 10px 0 0;
@@ -15283,62 +15285,62 @@ h4 {
   text-align: center;
 }
 
-/* line 22, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 22, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .formHeader img {
   display: inline;
   width: 25%;
 }
 
-/* line 28, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 28, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .formFooter {
   padding: 20px;
   text-align: center;
 }
 
-/* line 33, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 33, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .button .secondary {
   width: 100%;
   border-color: #D4D4D4;
   background-color: #D4D4D4;
 }
 
-/* line 39, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 39, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .button .secondary:hover {
   border-color: #6E6E6E;
   background-color: #6E6E6E;
 }
 
-/* line 45, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 45, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform h3 {
   text-align: center;
   padding-bottom: 20px;
 }
 
-/* line 49, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 49, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform form {
   padding: 20px;
 }
 
-/* line 53, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 53, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .right {
   float: right !important;
 }
 
-/* line 57, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 57, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform form .button {
   width: 100%;
   border-color: #ff9c00;
   background-color: #ff9c00;
 }
 
-/* line 63, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 63, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform form .button:hover {
   border-color: #CC7D00;
   background-color: #CC7D00;
 }
 
 /* Styles for input field */
-/* line 72, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 72, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input {
   position: relative;
   z-index: 1;
@@ -15348,7 +15350,7 @@ h4 {
   vertical-align: top;
 }
 
-/* line 83, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 83, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field {
   position: relative;
   display: block;
@@ -15363,13 +15365,13 @@ h4 {
   /* for box shadows to show on iOS */
 }
 
-/* line 98, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 98, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field:focus, input:-webkit-autofill {
   outline: none;
   background-color: transparent !important;
 }
 
-/* line 103, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 103, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label {
   display: inline-block;
   float: right;
@@ -15386,7 +15388,7 @@ h4 {
   user-select: none;
 }
 
-/* line 119, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 119, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label-content {
   position: relative;
   display: block;
@@ -15394,7 +15396,7 @@ h4 {
   width: 100%;
 }
 
-/* line 126, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 126, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .graphic {
   position: absolute;
   top: 0;
@@ -15402,19 +15404,19 @@ h4 {
   fill: none;
 }
 
-/* line 133, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 133, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .icon {
   color: #ddd;
   font-size: 150%;
 }
 
 /* Hoshi */
-/* line 139, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 139, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input--hoshi {
   overflow: hidden;
 }
 
-/* line 143, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 143, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field--hoshi {
   margin-top: 1em;
   padding: 0.85em 0.15em;
@@ -15423,7 +15425,7 @@ h4 {
   color: #595F6E;
 }
 
-/* line 151, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 151, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi {
   position: absolute;
   bottom: 0;
@@ -15435,12 +15437,12 @@ h4 {
   pointer-events: none;
 }
 
-/* line 164, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 164, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label-content--hoshi {
   position: absolute;
 }
 
-/* line 168, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 168, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi::before,
 .input__label--hoshi::after {
   content: '';
@@ -15452,7 +15454,7 @@ h4 {
   border-bottom: 1px solid #B9C1CA;
 }
 
-/* line 179, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 179, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi::after {
   margin-top: 2px;
   border-bottom: 2px solid red;
@@ -15462,29 +15464,29 @@ h4 {
   transition: transform 0.3s;
 }
 
-/* line 188, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 188, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi-color-1::after {
   border-color: #00aaff;
 }
 
-/* line 192, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 192, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi-color-2::after {
   border-color: #ff9c00;
 }
 
-/* line 197, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 197, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi-color-3::after {
   border-color: #ff5500;
 }
 
-/* line 201, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 201, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field--hoshi:focus + .input__label--hoshi::after,
 .input--filled .input__label--hoshi::after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-/* line 207, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 207, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field--hoshi:focus + .input__label--hoshi .input__label-content--hoshi,
 .input--filled .input__label-content--hoshi {
   -webkit-animation: anim-1 0.3s forwards;
@@ -15527,7 +15529,7 @@ h4 {
 }
 /*------------------------- calling common/stokes */
 /* Strokes */
-/* line 3, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
+/* line 3, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
 .underline {
   display: inline-block;
   width: 160px;
@@ -15536,7 +15538,7 @@ h4 {
   margin-bottom: 40px;
 }
 
-/* line 10, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
+/* line 10, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
 .underline-small {
   display: inline-block;
   width: 160px;
@@ -15544,7 +15546,7 @@ h4 {
   height: 1px;
 }
 
-/* line 17, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
+/* line 17, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
 .divider {
   width: 100%;
   height: 1px;
@@ -15553,18 +15555,18 @@ h4 {
 
 /*------------------------- calling common/footer */
 /* Footer Section */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer {
   padding: 100px 0 20px 0;
   background-color: #f2f2f2;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer .underline-small {
   margin: 20px auto;
 }
 
-/* line 11, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer span.jobs {
   font-size: 11px;
   font-weight: 600;
@@ -15576,7 +15578,7 @@ h4 {
   position: relative;
 }
 
-/* line 21, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 21, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer span.jobs:after {
   right: 100%;
   top: 50%;
@@ -15590,45 +15592,45 @@ h4 {
   margin-top: -5px;
 }
 
-/* line 34, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 34, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer small {
   font-size: 13px;
   color: #666;
 }
 
-/* line 39, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 39, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer img {
   margin-bottom: 30px;
 }
 
-/* line 43, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 43, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer ul {
   margin-bottom: 40px;
 }
 
-/* line 47, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 47, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer ul li {
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-/* line 52, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 52, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer a,
 .footer p {
   font-size: 14px;
 }
 
-/* line 57, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 57, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer i {
   font-size: 16px;
 }
 
-/* line 61, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 61, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer h4 {
   margin-bottom: 5px;
 }
 
-/* line 66, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 66, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer a,
 .footer p {
   font-size: 14px;
@@ -15640,34 +15642,34 @@ h4 {
   text-decoration: none;
 }
 
-/* line 76, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 76, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer a:hover {
   text-decoration: none;
 }
 
-/* line 80, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 80, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer i {
   font-size: 16px;
 }
 
-/* line 84, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 84, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer h4 {
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 /*------------------------- calling framework_and_overrides */
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 img {
   margin: 0 auto;
 }
 
-/* line 12, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 12, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 .navbar-brand {
   font-size: inherit;
 }
 
-/* line 39, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 39, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 main {
   background-color: #eee;
   padding: 0px;
@@ -15676,38 +15678,38 @@ main {
 }
 
 /* Sections */
-/* line 49, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 48, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 main section {
   margin-top: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 56, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 55, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 section h1 {
   font-family: Open Sans, sans-serif;
   font-size: 2.5em;
   font-weight: 300;
 }
 
-/* line 62, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 61, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 section.intro {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-/* line 67, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 66, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 .section-head {
   font-size: 18px;
   text-align: center;
 }
 
-/* line 80, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 79, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 #error_explanation h2 {
   font-size: 16px;
 }
 
-/* line 90, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 89, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 .alert, #error_explanation {
   position: fixed;
   top: 51px;
@@ -15719,14 +15721,14 @@ section.intro {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 100, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 99, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 button.close {
   color: #3c763d;
   opacity: 1;
   text-shadow: none;
 }
 
-/* line 105, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
+/* line 104, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/framework_and_overrides.scss */
 .alert-danger button.close, #error_explanation button.close {
   color: #a94442;
 }
@@ -15739,13 +15741,13 @@ button.close {
 /* =============================================================================
   PRIMARY LAYOUT
 ============================================================================= */
-/* line 8, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 8, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .wrapper {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
 }
 
-/* line 14, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 14, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .wrapper.mm-menu-open {
   -webkit-transform: translateX(240px);
   -ms-transform: translateX(240px);
@@ -15766,7 +15768,7 @@ button.close {
  *
  * a.k.a. hamburger icon. See the "resets" section for global button resets.
  */
-/* line 33, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 33, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle {
   position: relative;
   top: 0;
@@ -15781,7 +15783,7 @@ button.close {
   text-indent: -9999px;
 }
 
-/* line 61, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 61, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle::before,
 .mm-menu-toggle::after {
   display: block;
@@ -15793,7 +15795,7 @@ button.close {
   content: "";
 }
 
-/* line 72, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 72, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle::before {
   top: 0;
   -webkit-transform-origin: bottom left;
@@ -15801,7 +15803,7 @@ button.close {
   transform-origin: bottom left;
 }
 
-/* line 79, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 79, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle::after {
   bottom: 0;
   -webkit-transform-origin: top left;
@@ -15809,7 +15811,7 @@ button.close {
   transform-origin: top left;
 }
 
-/* line 86, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 86, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle,
 .mm-menu-toggle::before,
 .mm-menu-toggle::after {
@@ -15818,14 +15820,14 @@ button.close {
 }
 
 /* active states */
-/* line 94, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 94, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle.active {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-/* line 100, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 100, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle.active::before {
   width: 75%;
   -webkit-transform: translateY(7px) rotate(-45deg);
@@ -15833,7 +15835,7 @@ button.close {
   transform: translateY(7px) rotate(-45deg);
 }
 
-/* line 107, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 107, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle.active::after {
   width: 75%;
   -webkit-transform: translateY(-7px) rotate(45deg);
@@ -15846,7 +15848,7 @@ button.close {
  *
  * Here be all the stuff for the menu itself.
  */
-/* line 119, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 119, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu {
   position: fixed;
   top: 0;
@@ -15865,7 +15867,7 @@ button.close {
   transition: transform 0.5s, box-shadow 0.5s;
 }
 
-/* line 137, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 137, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu.active {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -15873,7 +15875,7 @@ button.close {
 }
 
 @media all and (min-width: 240px) {
-  /* line 145, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+  /* line 145, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
   .mm-menu {
     width: 240px;
     -webkit-transform: translateX(-240px);
@@ -15882,7 +15884,7 @@ button.close {
   }
 }
 /* header */
-/* line 153, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 153, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__header {
   position: relative;
   width: 100%;
@@ -15890,7 +15892,7 @@ button.close {
   background-color: #ff9c00;
 }
 
-/* line 160, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 160, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__title {
   position: absolute;
   bottom: 12px;
@@ -15902,14 +15904,14 @@ button.close {
 }
 
 /* list */
-/* line 171, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 171, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 177, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 177, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item {
   display: block;
   width: 100%;
@@ -15919,7 +15921,7 @@ button.close {
   transform: translateX(-50%);
 }
 
-/* line 186, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 186, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.in-view {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -15927,127 +15929,127 @@ button.close {
   transform: translateX(0);
 }
 
-/* line 193, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 193, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-1 {
   -webkit-transition: opacity 0.5s 0.1s, -webkit-transform 0.5s 0.1s;
   transition: opacity 0.5s 0.1s, transform 0.5s 0.1s;
 }
 
-/* line 198, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 198, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-2 {
   -webkit-transition: opacity 0.5s 0.2s, -webkit-transform 0.5s 0.2s;
   transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;
 }
 
-/* line 203, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 203, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-3 {
   -webkit-transition: opacity 0.5s 0.3s, -webkit-transform 0.5s 0.3s;
   transition: opacity 0.5s 0.3s, transform 0.5s 0.3s;
 }
 
-/* line 208, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 208, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-4 {
   -webkit-transition: opacity 0.5s 0.4s, -webkit-transform 0.5s 0.4s;
   transition: opacity 0.5s 0.4s, transform 0.5s 0.4s;
 }
 
-/* line 213, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 213, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-5 {
   -webkit-transition: opacity 0.5s 0.5s, -webkit-transform 0.5s 0.5s;
   transition: opacity 0.5s 0.5s, transform 0.5s 0.5s;
 }
 
-/* line 218, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 218, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-6 {
   -webkit-transition: opacity 0.5s 0.6s, -webkit-transform 0.5s 0.6s;
   transition: opacity 0.5s 0.6s, transform 0.5s 0.6s;
 }
 
-/* line 223, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 223, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-7 {
   -webkit-transition: opacity 0.5s 0.7s, -webkit-transform 0.5s 0.7s;
   transition: opacity 0.5s 0.7s, transform 0.5s 0.7s;
 }
 
-/* line 228, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 228, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-8 {
   -webkit-transition: opacity 0.5s 0.8s, -webkit-transform 0.5s 0.8s;
   transition: opacity 0.5s 0.8s, transform 0.5s 0.8s;
 }
 
-/* line 233, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 233, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-9 {
   -webkit-transition: opacity 0.5s 0.9s, -webkit-transform 0.5s 0.9s;
   transition: opacity 0.5s 0.9s, transform 0.5s 0.9s;
 }
 
-/* line 238, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 238, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-10 {
   -webkit-transition: opacity 0.5s 1.0s, -webkit-transform 0.5s 1.0s;
   transition: opacity 0.5s 1.0s, transform 0.5s 1.0s;
 }
 
-/* line 243, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 243, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-11 {
   -webkit-transition: opacity 0.5s 1.1s, -webkit-transform 0.5s 1.1s;
   transition: opacity 0.5s 1.1s, transform 0.5s 1.1s;
 }
 
-/* line 248, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 248, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-12 {
   -webkit-transition: opacity 0.5s 1.2s, -webkit-transform 0.5s 1.2s;
   transition: opacity 0.5s 1.2s, transform 0.5s 1.2s;
 }
 
-/* line 253, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 253, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-13 {
   -webkit-transition: opacity 0.5s 1.3s, -webkit-transform 0.5s 1.3s;
   transition: opacity 0.5s 1.3s, transform 0.5s 1.3s;
 }
 
-/* line 258, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 258, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-14 {
   -webkit-transition: opacity 0.5s 1.4s, -webkit-transform 0.5s 1.4s;
   transition: opacity 0.5s 1.4s, transform 0.5s 1.4s;
 }
 
-/* line 263, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 263, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-15 {
   -webkit-transition: opacity 0.5s 1.5s, -webkit-transform 0.5s 1.5s;
   transition: opacity 0.5s 1.5s, transform 0.5s 1.5s;
 }
 
-/* line 268, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 268, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-16 {
   -webkit-transition: opacity 0.5s 1.6s, -webkit-transform 0.5s 1.6s;
   transition: opacity 0.5s 1.6s, transform 0.5s 1.6s;
 }
 
-/* line 273, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 273, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-17 {
   -webkit-transition: opacity 0.5s 1.7s, -webkit-transform 0.5s 1.7s;
   transition: opacity 0.5s 1.7s, transform 0.5s 1.7s;
 }
 
-/* line 278, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 278, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-18 {
   -webkit-transition: opacity 0.5s 1.8s, -webkit-transform 0.5s 1.8s;
   transition: opacity 0.5s 1.8s, transform 0.5s 1.8s;
 }
 
-/* line 283, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 283, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-19 {
   -webkit-transition: opacity 0.5s 1.9s, -webkit-transform 0.5s 1.9s;
   transition: opacity 0.5s 1.9s, transform 0.5s 1.9s;
 }
 
-/* line 288, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 288, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-20 {
   -webkit-transition: opacity 0.5s 2.0s, -webkit-transform 0.5s 2.0s;
   transition: opacity 0.5s 2.0s, transform 0.5s 2.0s;
 }
 
-/* line 293, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 293, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__link {
   display: block;
   position: relative;
@@ -16061,14 +16063,14 @@ button.close {
   transition: background 0.5s, color 0.5s;
 }
 
-/* line 306, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 306, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__link-text {
   position: relative;
   z-index: 2;
 }
 
 /* the touch effect, for when a link is touched */
-/* line 312, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 312, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__link--touch-effect {
   display: block;
   position: absolute;
@@ -16085,7 +16087,7 @@ button.close {
   transform-origin: 50% 50%;
 }
 
-/* line 328, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 328, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__link--touch-effect.animating {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -16094,10 +16096,43 @@ button.close {
   transition: transform 0.5s;
 }
 
+/* line 1, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 6, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
+.row, main section {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
+.panel {
+  padding: 0;
+  background: #F5F5F5;
+}
+
+/* line 16, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
+.gauge-canvas {
+  text-align: center;
+}
+
+/* line 20, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
+.widget-header {
+  color: #afaebc;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
 /*------------------------- calling Landing */
 /* Polo&Marco App Landing Page variables Sass Stylesheet
 ====================================================== */
-/* line 1, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 1, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 .intro {
   position: relative;
   overflow: hidden;
@@ -16105,7 +16140,7 @@ button.close {
   background: #1B1F23;
 }
 
-/* line 9, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 9, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 .intro .intro-section {
   position: absolute;
   top: 0;
@@ -16120,24 +16155,24 @@ button.close {
   text-align: center;
 }
 
-/* line 24, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 24, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 .intro .intro-section h1 {
   color: #fff;
   padding: 50px 0;
   line-height: 1.3em;
 }
 
-/* line 29, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 29, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 .intro .intro-section img {
   display: inline;
 }
 
-/* line 32, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 32, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 .intro .intro-section .btn-custom-border {
   color: #fff;
 }
 
-/* line 36, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 36, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 a.mouse {
   display: block;
   position: absolute;
@@ -16149,13 +16184,13 @@ a.mouse {
   margin-left: -12px;
 }
 
-/* line 46, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 46, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 a.mouse i {
   position: relative;
   color: #fff;
 }
 
-/* line 51, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
+/* line 51, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_video.scss */
 video {
   min-width: 100%;
   min-height: 100%;
@@ -16168,7 +16203,7 @@ video {
 }
 
 /* Screenshot Section */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .small-slider .owl-prev {
   position: absolute;
   left: 0;
@@ -16176,7 +16211,7 @@ video {
   margin-top: -26px;
 }
 
-/* line 8, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 8, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .small-slider .owl-next {
   position: absolute;
   right: 0;
@@ -16184,7 +16219,7 @@ video {
   margin-top: -26px;
 }
 
-/* line 14, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 14, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .owl-theme .owl-controls .owl-buttons div {
   padding: 0;
   webkit-border-radius: 3px;
@@ -16192,28 +16227,28 @@ video {
   border-radius: 3px;
 }
 
-/* line 20, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 20, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .owl-buttons div i.fa {
   font-size: 4.3em;
 }
 
-/* line 24, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 24, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .screens .screen a {
   display: inline-block;
   position: relative;
 }
 
-/* line 28, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 28, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .screens .screen img {
   border-radius: 4px;
 }
 
-/* line 32, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 32, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .hover-screen {
   opacity: 0;
 }
 
-/* line 35, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 35, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .screen a:hover .hover-screen {
   opacity: 1;
   top: 50%;
@@ -16223,7 +16258,7 @@ video {
   position: absolute;
 }
 
-/* line 43, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 43, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .screen a:hover .hover-screen i {
   font-size: 24px;
   color: #fff;
@@ -16240,90 +16275,90 @@ video {
   transition: all .15s linear;
 }
 
-/* line 58, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 58, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .screens .screen .hover-screen i:hover {
   background-color: #fff;
 }
 
 /* Brief Section */
-/* line 65, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 65, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .brief-content {
   max-width: 500px;
 }
 
-/* line 69, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 69, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .brief-content h1 {
   line-height: 1.3em;
 }
 
-/* line 73, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 73, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .brief-content .underline {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-/* line 78, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 78, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .brief-content .btn, .brief-content .button-xs {
   margin-top: 25px;
 }
 
-/* line 82, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
+/* line 82, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_brief.scss */
 .brief figure img {
   max-height: 525px;
 }
 
 /* Features Section */
-/* line 3, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 3, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features {
   background: #f9f9f9;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .features-left {
   text-align: right;
   margin-top: 5px;
 }
 
-/* line 12, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 12, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .features-left .icon-container {
   float: right;
   margin-left: 40px;
 }
 
-/* line 17, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 17, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .features-right {
   text-align: left;
   margin-top: 5px;
 }
 
-/* line 22, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 22, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .features-right .icon-container {
   float: left;
   margin-right: 40px;
 }
 
-/* line 27, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 27, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .feature {
   margin-bottom: 23px;
 }
 
-/* line 30, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 30, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .feature:hover .icon-container .icon {
   color: #fff;
 }
 
-/* line 33, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 33, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .feature h4 {
   margin-bottom: 20px;
 }
 
-/* line 37, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 37, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .feature .icon-container {
   display: block;
   min-height: 116px;
 }
 
-/* line 42, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 42, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features .feature .icon-container .icon {
   width: 80px;
   height: 80px;
@@ -16338,33 +16373,33 @@ video {
   transition: all .15s linear;
 }
 
-/* line 56, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
+/* line 56, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_features.scss */
 .features figure img {
   margin: 0 auto;
   display: block;
 }
 
 /* Newsletter Section */
-/* line 3, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 3, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter {
   background-image: url(/assets/newsletter_bg-2e7fd8543420da164aad6484b9a1bef8.jpg);
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-/* line 9, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 9, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter .section-head {
   color: #fff;
 }
 
-/* line 13, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 13, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter .form {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 19, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 19, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter input {
   height: 62px;
   width: 500px;
@@ -16374,24 +16409,24 @@ video {
   border-radius: 3px;
 }
 
-/* line 28, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 28, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter input:focus, input:-webkit-autofill {
   background-color: transparent !important;
 }
 
-/* line 32, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 32, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter .submit {
   width: inherit;
 }
 
-/* line 36, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 36, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .newsletter #success_page p,
 .newsletter #message {
   color: #ffffff;
   font-size: 18px;
 }
 
-/* line 42, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 42, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .screens .owl-prev {
   position: absolute;
   left: -27px;
@@ -16399,7 +16434,7 @@ video {
   margin-top: -26px;
 }
 
-/* line 48, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
+/* line 48, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_newsletter.scss */
 .screens .owl-next {
   position: absolute;
   right: 5px;
@@ -16408,63 +16443,63 @@ video {
 }
 
 /* partners Section */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_partners.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_partners.scss */
 .partners {
   background: #f9f9f9;
 }
 
-/* line 6, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_partners.scss */
+/* line 6, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_partners.scss */
 .partners .partners-slider .item img {
   display: block;
   margin: 0 auto;
   opacity: 0.5;
 }
 
-/* line 12, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_partners.scss */
+/* line 12, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_partners.scss */
 .partners .partners-slider .item:hover img {
   opacity: 1;
 }
 
 /* Reviews Section */
-/* line 3, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
+/* line 3, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
 .reviews {
   background: #f9f9f9;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
 .client-data {
   border-right: 1px solid #e1e1e1;
 }
 
-/* line 11, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
 .client-image {
   float: left;
 }
 
-/* line 14, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
+/* line 14, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
 .client-image img {
   border: 7px solid #f2f2f2;
   border-radius: 50%;
 }
 
-/* line 19, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
+/* line 19, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
 .client-name {
   float: left;
   padding: 60px 0 0 20px;
 }
 
-/* line 23, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
+/* line 23, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
 .client-name h4 {
   margin-bottom: 0px;
 }
 
-/* line 27, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
+/* line 27, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_reviews.scss */
 .client-quote {
   padding: 40px 0 0 20px;
 }
 
 /* Service Section */
-/* line 3, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_service.scss */
+/* line 3, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_service.scss */
 .service {
   text-align: center;
   margin: 0;
@@ -16475,12 +16510,12 @@ video {
   transition: all .15s linear;
 }
 
-/* line 12, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_service.scss */
+/* line 12, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_service.scss */
 .service:hover {
   margin-top: -10px;
 }
 
-/* line 16, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/landing/landing_service.scss */
+/* line 16, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/landing/landing_service.scss */
 .service i {
   font-size: 42px;
   margin-bottom: 30px;
@@ -16494,7 +16529,7 @@ video {
 /* Lamap App Landing Page Light version Stylesheet
 ====================================================== */
 /* HTML 5 reset & Bootstrap fixes */
-/* line 5, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 5, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -16517,12 +16552,12 @@ time, mark, audio, video {
   background: transparent;
 }
 
-/* line 27, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 27, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 html {
   font-size: 100%;
 }
 
-/* line 31, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 31, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 body {
   background-color: #fff;
   font-family: Open Sans, sans-serif;
@@ -16533,36 +16568,36 @@ body {
   position: relative;
 }
 
-/* line 41, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 41, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 46, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 46, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 ul,
 ol {
   padding-left: 0px;
 }
 
-/* line 51, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 51, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 ul li {
   list-style: none;
 }
 
-/* line 55, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 55, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 59, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 59, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 65, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 65, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 a {
   margin: 0;
   padding: 0;
@@ -16577,12 +16612,12 @@ a {
   transition: all .15s linear;
 }
 
-/* line 79, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 79, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 83, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 83, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 p {
   font-size: 14px;
   font-weight: 300;
@@ -16590,7 +16625,7 @@ p {
   margin-bottom: 10px;
 }
 
-/* line 90, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 90, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 button {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
@@ -16599,41 +16634,41 @@ button {
   transition: all .15s linear;
 }
 
-/* line 98, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 98, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
 }
 
-/* line 105, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 105, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *::-webkit-input-placeholder {
   color: white;
 }
 
-/* line 106, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 106, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *:-moz-placeholder {
   color: white;
 }
 
-/* line 107, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 107, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *::-moz-placeholder {
   color: white;
 }
 
-/* line 108, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 108, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *:-ms-input-placeholder {
   color: white;
 }
 
-/* line 110, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 110, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .btn:focus, .button-xs:focus,
 .btn:active,
 .button-xs:active {
   outline: none;
 }
 
-/* line 115, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 115, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 *,
 *:before,
 *:after {
@@ -16642,24 +16677,24 @@ select:focus {
   border-sizing: border-box;
 }
 
-/* line 123, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 123, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 figure img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 128, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 128, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .nopadding {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* line 132, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 132, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .owl-wrapper-outer {
   overflow: hidden !important;
 }
 
-/* line 136, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 136, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .dropdown-menu.extended {
   max-width: 320px !important;
   min-width: 160px !important;
@@ -16667,7 +16702,7 @@ figure img {
   padding: 0 10px;
 }
 
-/* line 143, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 143, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge {
   position: absolute;
   top: 5px;
@@ -16675,19 +16710,19 @@ figure img {
   z-index: 0;
 }
 
-/* line 149, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 149, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge.bg-success {
   background: #ff9c00;
 }
 
 /*------------------------- calling common/color */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .nav-tabs > li > a:hover {
   background-color: #ff9c00;
   border-color: #ff9c00;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
@@ -16695,18 +16730,18 @@ figure img {
   border: 1px solid #0088cc;
 }
 
-/* line 15, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 15, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .features .feature .icon-container .icon {
   border: 1px solid #ff9c00;
 }
 
-/* line 19, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 19, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .btn-send,
 .newsletter input {
   border: 1px solid #ffffff;
 }
 
-/* line 24, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 24, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .btn-send:hover,
 .btn-send:active,
 .btn-custom:hover,
@@ -16720,24 +16755,24 @@ figure img {
   border-color: #CC7D00;
 }
 
-/* line 37, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 37, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .btn-slide,
 .features .feature:hover .icon-container .icon,
 .footer span.jobs {
   background-color: #ff9c00;
 }
 
-/* line 44, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 44, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .underline {
   border-top: 4px solid #ff9c00;
 }
 
-/* line 48, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 48, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .underline-small {
   border-top: 2px solid #ff9c00;
 }
 
-/* line 53, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 53, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-nav > li.current a,
@@ -16752,14 +16787,14 @@ ul.extra-features i,
   color: #ff9c00;
 }
 
-/* line 67, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/color.scss */
+/* line 67, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/color.scss */
 .footer span.jobs:after {
   border-right-color: #ff9c00;
 }
 
 /*------------------------- calling common/button */
 /* Button Styles */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn, .button-xs {
   background: transparent;
   color: #fff;
@@ -16770,40 +16805,40 @@ ul.extra-features i,
   border-radius: 3px;
 }
 
-/* line 11, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn:hover, .button-xs:hover,
 .btn:focus,
 .button-xs:focus {
   color: #fff;
 }
 
-/* line 16, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 16, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn i, .button-xs i {
   padding-right: 5px;
 }
 
 /* btn primary */
-/* line 21, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 21, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-primary, .button-xs {
   border-color: #ff9c00;
   background-color: #ff9c00;
 }
 
-/* line 25, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 25, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-primary:hover, .button-xs:hover {
   border-color: #CC7D00;
   background-color: #CC7D00;
 }
 
 /* btn secondary */
-/* line 31, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 31, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn.btn-secondary, .btn-secondary.button-xs {
   width: 100%;
   border-color: #D4D4D4;
   background-color: #D4D4D4;
 }
 
-/* line 36, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 36, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn.btn-secondary:hover, .btn-secondary.button-xs:hover {
   border-color: transparent;
   border-color: #6E6E6E;
@@ -16811,21 +16846,21 @@ ul.extra-features i,
 }
 
 /* btn custom */
-/* line 43, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 43, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-custom {
   background-color: transparent;
   border-color: #FFF;
   border: 1px solid #FFF;
 }
 
-/* line 49, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 49, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-custom-border {
   background: transparent;
   border-color: #ff9c00;
   color: #ffffff;
 }
 
-/* line 56, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 56, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-send {
   height: 62px;
   width: inherit;
@@ -16833,7 +16868,7 @@ ul.extra-features i,
   vertical-align: top;
 }
 
-/* line 63, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 63, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .btn-slide {
   width: 55px;
   height: 55px;
@@ -16850,7 +16885,7 @@ ul.extra-features i,
   transition: all .15s linear;
 }
 
-/* line 79, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 79, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .navbar-btn {
   margin: 0 auto;
   width: 51px;
@@ -16858,7 +16893,7 @@ ul.extra-features i,
 }
 
 /* Strokes */
-/* line 88, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 88, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .underline {
   display: inline-block;
   width: 160px;
@@ -16866,7 +16901,7 @@ ul.extra-features i,
   margin-top: 21px;
 }
 
-/* line 94, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 94, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .underline-small {
   display: inline-block;
   width: 160px;
@@ -16874,7 +16909,7 @@ ul.extra-features i,
   height: 1px;
 }
 
-/* line 101, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/button.scss */
+/* line 101, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/button.scss */
 .divider {
   width: 100%;
   height: 1px;
@@ -16883,23 +16918,23 @@ ul.extra-features i,
 
 /*------------------------- calling common/heading */
 /* Heading Sizes */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h1 {
   font-size: 42px;
   font-weight: 300;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h2 {
   font-size: 38px;
 }
 
-/* line 11, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 15, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
+/* line 15, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/heading.scss */
 h4 {
   font-size: 18px;
   font-weight: 600;
@@ -16907,7 +16942,7 @@ h4 {
 }
 
 /*------------------------- calling common/authform */
-/* line 4, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 4, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform {
   background-color: #F5F5F5;
   padding-top: 0px;
@@ -16919,7 +16954,7 @@ h4 {
   border-right: 1px solid #E3E3E3;
 }
 
-/* line 16, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 16, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .formHeader {
   background-color: #FFF;
   border-radius: 10px 10px 0 0;
@@ -16927,62 +16962,62 @@ h4 {
   text-align: center;
 }
 
-/* line 22, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 22, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .formHeader img {
   display: inline;
   width: 25%;
 }
 
-/* line 28, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 28, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .formFooter {
   padding: 20px;
   text-align: center;
 }
 
-/* line 33, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 33, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .button .secondary {
   width: 100%;
   border-color: #D4D4D4;
   background-color: #D4D4D4;
 }
 
-/* line 39, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 39, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .button .secondary:hover {
   border-color: #6E6E6E;
   background-color: #6E6E6E;
 }
 
-/* line 45, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 45, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform h3 {
   text-align: center;
   padding-bottom: 20px;
 }
 
-/* line 49, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 49, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform form {
   padding: 20px;
 }
 
-/* line 53, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 53, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform .right {
   float: right !important;
 }
 
-/* line 57, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 57, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform form .button {
   width: 100%;
   border-color: #ff9c00;
   background-color: #ff9c00;
 }
 
-/* line 63, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 63, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .authform form .button:hover {
   border-color: #CC7D00;
   background-color: #CC7D00;
 }
 
 /* Styles for input field */
-/* line 72, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 72, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input {
   position: relative;
   z-index: 1;
@@ -16992,7 +17027,7 @@ h4 {
   vertical-align: top;
 }
 
-/* line 83, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 83, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field {
   position: relative;
   display: block;
@@ -17007,13 +17042,13 @@ h4 {
   /* for box shadows to show on iOS */
 }
 
-/* line 98, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 98, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field:focus, input:-webkit-autofill {
   outline: none;
   background-color: transparent !important;
 }
 
-/* line 103, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 103, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label {
   display: inline-block;
   float: right;
@@ -17030,7 +17065,7 @@ h4 {
   user-select: none;
 }
 
-/* line 119, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 119, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label-content {
   position: relative;
   display: block;
@@ -17038,7 +17073,7 @@ h4 {
   width: 100%;
 }
 
-/* line 126, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 126, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .graphic {
   position: absolute;
   top: 0;
@@ -17046,19 +17081,19 @@ h4 {
   fill: none;
 }
 
-/* line 133, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 133, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .icon {
   color: #ddd;
   font-size: 150%;
 }
 
 /* Hoshi */
-/* line 139, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 139, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input--hoshi {
   overflow: hidden;
 }
 
-/* line 143, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 143, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field--hoshi {
   margin-top: 1em;
   padding: 0.85em 0.15em;
@@ -17067,7 +17102,7 @@ h4 {
   color: #595F6E;
 }
 
-/* line 151, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 151, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi {
   position: absolute;
   bottom: 0;
@@ -17079,12 +17114,12 @@ h4 {
   pointer-events: none;
 }
 
-/* line 164, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 164, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label-content--hoshi {
   position: absolute;
 }
 
-/* line 168, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 168, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi::before,
 .input__label--hoshi::after {
   content: '';
@@ -17096,7 +17131,7 @@ h4 {
   border-bottom: 1px solid #B9C1CA;
 }
 
-/* line 179, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 179, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi::after {
   margin-top: 2px;
   border-bottom: 2px solid red;
@@ -17106,29 +17141,29 @@ h4 {
   transition: transform 0.3s;
 }
 
-/* line 188, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 188, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi-color-1::after {
   border-color: #00aaff;
 }
 
-/* line 192, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 192, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi-color-2::after {
   border-color: #ff9c00;
 }
 
-/* line 197, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 197, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__label--hoshi-color-3::after {
   border-color: #ff5500;
 }
 
-/* line 201, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 201, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field--hoshi:focus + .input__label--hoshi::after,
 .input--filled .input__label--hoshi::after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-/* line 207, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
+/* line 207, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/authform.scss */
 .input__field--hoshi:focus + .input__label--hoshi .input__label-content--hoshi,
 .input--filled .input__label-content--hoshi {
   -webkit-animation: anim-1 0.3s forwards;
@@ -17171,7 +17206,7 @@ h4 {
 }
 /*------------------------- calling common/stokes */
 /* Strokes */
-/* line 3, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
+/* line 3, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
 .underline {
   display: inline-block;
   width: 160px;
@@ -17180,7 +17215,7 @@ h4 {
   margin-bottom: 40px;
 }
 
-/* line 10, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
+/* line 10, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
 .underline-small {
   display: inline-block;
   width: 160px;
@@ -17188,7 +17223,7 @@ h4 {
   height: 1px;
 }
 
-/* line 17, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
+/* line 17, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/strokes.scss */
 .divider {
   width: 100%;
   height: 1px;
@@ -17197,18 +17232,18 @@ h4 {
 
 /*------------------------- calling common/footer */
 /* Footer Section */
-/* line 2, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 2, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer {
   padding: 100px 0 20px 0;
   background-color: #f2f2f2;
 }
 
-/* line 7, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 7, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer .underline-small {
   margin: 20px auto;
 }
 
-/* line 11, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 11, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer span.jobs {
   font-size: 11px;
   font-weight: 600;
@@ -17220,7 +17255,7 @@ h4 {
   position: relative;
 }
 
-/* line 21, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 21, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer span.jobs:after {
   right: 100%;
   top: 50%;
@@ -17234,45 +17269,45 @@ h4 {
   margin-top: -5px;
 }
 
-/* line 34, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 34, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer small {
   font-size: 13px;
   color: #666;
 }
 
-/* line 39, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 39, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer img {
   margin-bottom: 30px;
 }
 
-/* line 43, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 43, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer ul {
   margin-bottom: 40px;
 }
 
-/* line 47, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 47, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer ul li {
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-/* line 52, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 52, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer a,
 .footer p {
   font-size: 14px;
 }
 
-/* line 57, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 57, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer i {
   font-size: 16px;
 }
 
-/* line 61, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 61, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer h4 {
   margin-bottom: 5px;
 }
 
-/* line 66, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 66, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer a,
 .footer p {
   font-size: 14px;
@@ -17284,17 +17319,17 @@ h4 {
   text-decoration: none;
 }
 
-/* line 76, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 76, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer a:hover {
   text-decoration: none;
 }
 
-/* line 80, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 80, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer i {
   font-size: 16px;
 }
 
-/* line 84, /Users/michaelboitin/rails_workspace/Polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
+/* line 84, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/footer.scss */
 .footer h4 {
   font-weight: 600;
   margin-bottom: 5px;

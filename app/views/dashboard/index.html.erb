@@ -2,20 +2,15 @@
 <div class="container-fluid">
 	<div class="row">
 		
-		<div class="col-md-10">
+		<!-- <div class="col-md-10"> -->
 			<div class="wrapper">
-				<div class="section_title grey">
-					<button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
-					<h2>Hello <%= current_user.name %></h2>
-					<p>Welcome on your dashboard !</p>
-					<p><%= link_to "Se déconnecter", destroy_user_session_path, :method=>'delete' %></p>
-				</div>
+				<%= render 'dashboard/wrapper' %>
 			</div>
-		</div>
+		<!-- </div> -->
 
-		<div class="col-md-2">
+		<!-- <div class="col-md-2"> -->
 			<%= render 'dashboard/leftmenu' %>
-		</div>
+		<!-- </div> -->
 		
 	</div>
 </div>

@@ -11,6 +11,7 @@ gem 'font-awesome-sass'
 gem 'owlcarousel-rails'
 gem 'figaro'
 gem 'mailchimp-api'
+gem "d3-rails"
 
 group :development, :test do
   gem 'byebug'
