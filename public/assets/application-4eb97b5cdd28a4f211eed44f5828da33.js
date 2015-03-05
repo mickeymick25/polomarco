@@ -25461,7 +25461,7 @@ $.ajax({
  
 function draw(data){
 	
-	<!-- Chart Map Appartement -->
+	/* Chart Map Appartement */
 	var chart_appart = drawfloormap();
 
 	<!-- Chart Temperature -->
@@ -25472,6 +25472,10 @@ function draw(data){
 	        right: 0,
 	        bottom: 0,
 	        left: 20,
+    	},
+    	size: {
+	        // height: 240,
+	        // width: 480
     	},
     	data: {
 	        columns: [
@@ -25486,8 +25490,9 @@ function draw(data){
         	show: false
     	}
 	});
+	// End Chart Temperature 
 
-	<!-- Chart Humidite -->
+	/* Chart Humidite */
 	var chart_humd = c3.generate({
 		bindto: '#humidite',
 		padding: {
@@ -25516,8 +25521,9 @@ function draw(data){
 	        //width: 100 // this makes bar width 100px
 	    }
 	});
+	// End chart humidite
 
-	<!-- Chart Acoustique -->
+	/* Chart Acoustique */
 	var chart_acou = c3.generate({
 		bindto: '#acoustique',
 		padding: {
@@ -25539,8 +25545,9 @@ function draw(data){
 	    	show: false
 		}
 	});
+	// End chart Acoustisque
 
-	<!-- Chart Luminosite -->
+	/* Chart Luminosite */
 	var chart_lumi = c3.generate({
 		bindto: '#luminosite',
     	padding: {
@@ -25562,8 +25569,33 @@ function draw(data){
         	show: false
     	}
 	});
+	// End chart luminosite
 
-	<!-- Chart batterie -->
+	/* Chart qualité de l'air */
+	var chart_lumi = c3.generate({
+		bindto: '#airquality',
+    	padding: {
+	        top: 0,
+	        right: 0,
+	        bottom: 0,
+	        left: 20,
+    	},
+    	data: {
+	        columns: [
+	            ['airquality', 18, 19, 22, 18, 19, 17]
+	        ],
+	        type: 'area-spline',
+	        colors: {
+	        	airquality: '#ff9c00'
+	        }
+	    },
+	    legend: {
+        	show: false
+    	}
+	});
+	// End Chart qualité de l'air
+
+	/* Chart batterie */
 	var chart_batterie = c3.generate({
 		bindto:	'#batterie',
 	    data: {
@@ -25599,6 +25631,7 @@ function draw(data){
 	        height: "100%"
 	    }
 	});
+	// End chart batterie
 
 	setTimeout(function () {
 	    chart_batterie.load({
@@ -25630,47 +25663,52 @@ function draw(data){
 	    });
 	}, 5000);
 
+	}
 
-}
+	function drawfloormap(){
+		var _width = 720;
+		var _height = 487;
 
-function drawfloormap(){
-	var xscale = d3.scale.linear()
-               .domain([0,50.0])
-               .range([0,720]),
-    yscale = d3.scale.linear()
-               .domain([0,33.79])
-               .range([0,487]),
-    map = d3.floorplan().xScale(xscale).yScale(yscale),
-    imagelayer = d3.floorplan.imagelayer(),
-    heatmap = d3.floorplan.heatmap(),
-    vectorfield = d3.floorplan.vectorfield(),
-    pathplot = d3.floorplan.pathplot(),
-    //overlays = d3.floorplan.overlays().editMode(true),
-    mapdata = {};
+		var xscale = d3.scale.linear()
+	               .domain([0,50.0])
+	               .range([0,_width]);
 
-	mapdata[imagelayer.id()] = [{
-	    url: 'Sample_Floorplan.jpg',
-	    x: 0,
-	    y: 0,
-	    height: 33.79,
-	    width: 50.0
-	}];
+	    var yscale = d3.scale.linear()
+	               .domain([0,33.79])
+	               .range([0,_height]);
 
-	map.addLayer(imagelayer)
-	   .addLayer(heatmap)
-	   .addLayer(vectorfield)
-	   .addLayer(pathplot);
-	   //.addLayer(overlays);
+	    var map = d3.floorplan().xScale(xscale).yScale(yscale);
+	    var imagelayer = d3.floorplan.imagelayer();
+	    var heatmap = d3.floorplan.heatmap();
+	    // var vectorfield = d3.floorplan.vectorfield();
+	    var pathplot = d3.floorplan.pathplot();
+	    var overlays = d3.floorplan.overlays().editMode(true);
+	    var mapdata = {};
 
-	d3.json("demo-data.json", function(data) {
-		mapdata[heatmap.id()] = data.heatmap;
-		//mapdata[overlays.id()] = data.overlays;
-		mapdata[vectorfield.id()] = data.vectorfield;
-		mapdata[pathplot.id()] = data.pathplot;
-		
-		d3.select("#appartement").append("svg")
-			.attr("height", 487).attr("width","720")
-			.datum(mapdata).call(map);
+		mapdata[imagelayer.id()] = [{
+		    url: 'Sample_Floorplan.jpg',
+		    x: 0,
+		    y: 0,
+		    height: 33.79,
+		    width: 50.0
+		}];
+
+		map.addLayer(imagelayer)
+		   .addLayer(heatmap)
+		   // .addLayer(vectorfield)
+		   .addLayer(pathplot)
+		   .addLayer(overlays);
+
+		d3.json("demo-data.json", function(data) {
+			mapdata[heatmap.id()] = data.heatmap;
+			mapdata[overlays.id()] = data.overlays;
+			// mapdata[vectorfield.id()] = data.vectorfield;
+			mapdata[pathplot.id()] = data.pathplot;
+			
+			d3.select("#appartement").append("svg")
+				.attr("height", _height).attr("width", _width)
+				.datum(mapdata)
+				.call(map);
 	});
 
 }

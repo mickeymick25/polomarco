@@ -136,8 +136,46 @@ figure img {
 .dropdown-menu.extended{
     max-width: 320px !important;
     min-width: 160px !important;
+    max-height: 400px;
+    overflow-y: scroll;
+
     width: 300px !important;
     padding: 0 10px;
+    background-color:   $dashground-color;
+}
+.dropdown-menu.extended li p{
+    margin: 0;
+    padding: 10px 0;
+    // border-radius: 0px;
+    // -webkit-border-radius: 0px;
+}
+.dropdown-menu.extended li a {
+    background: $dashground-panel_color;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.dropdown-menu.extended .task-info {
+    font-size: 13px;
+    font-weight: normal;
+    //width: 80%;
+}
+.dropdown-menu.extended .task-info h5{
+    color: #32323a;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 8px;
+}
+.dropdown-menu.extended .task-info p{
+    padding-top: 0;
+    color: #8f8f9b;
+    font-weight: 300;
 }
 
 .badge{

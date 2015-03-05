@@ -14848,6 +14848,7 @@ button.close {
 ====================================================== */
 /* Fonts */
 /* Color */
+/* Dashboard Color */
 /*------------------------- calling common/style */
 /* Lamap App Landing Page Light version Stylesheet
 ====================================================== */
@@ -15021,11 +15022,55 @@ figure img {
 .dropdown-menu.extended {
   max-width: 320px !important;
   min-width: 160px !important;
+  max-height: 400px;
+  overflow-y: scroll;
   width: 300px !important;
   padding: 0 10px;
+  background-color: #EEEEEE;
 }
 
-/* line 143, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 146, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended li p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* line 152, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended li a {
+  background: #F5F5F5;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+
+/* line 161, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended .task-info {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* line 166, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended .task-info h5 {
+  color: #32323a;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-top: 8px;
+}
+
+/* line 175, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended .task-info p {
+  padding-top: 0;
+  color: #8f8f9b;
+  font-weight: 300;
+}
+
+/* line 181, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge {
   position: absolute;
   top: 5px;
@@ -15033,7 +15078,7 @@ figure img {
   z-index: 0;
 }
 
-/* line 149, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 187, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge.bg-success {
   background: #ff9c00;
 }
@@ -16112,14 +16157,18 @@ button.close {
 .panel {
   padding: 0;
   background: #F5F5F5;
+  border: 1px solid #E3E3E3;
+  box-shadow: none;
 }
 
-/* line 16, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
+/* line 18, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
 .gauge-canvas {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-/* line 20, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
+/* line 24, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
 .widget-header {
   color: #afaebc;
   font-size: 16px;
@@ -16525,6 +16574,7 @@ video {
 ====================================================== */
 /* Fonts */
 /* Color */
+/* Dashboard Color */
 /*------------------------- calling common/style */
 /* Lamap App Landing Page Light version Stylesheet
 ====================================================== */
@@ -16698,11 +16748,55 @@ figure img {
 .dropdown-menu.extended {
   max-width: 320px !important;
   min-width: 160px !important;
+  max-height: 400px;
+  overflow-y: scroll;
   width: 300px !important;
   padding: 0 10px;
+  background-color: #EEEEEE;
 }
 
-/* line 143, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 146, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended li p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* line 152, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended li a {
+  background: #F5F5F5;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+
+/* line 161, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended .task-info {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* line 166, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended .task-info h5 {
+  color: #32323a;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-top: 8px;
+}
+
+/* line 175, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+.dropdown-menu.extended .task-info p {
+  padding-top: 0;
+  color: #8f8f9b;
+  font-weight: 300;
+}
+
+/* line 181, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge {
   position: absolute;
   top: 5px;
@@ -16710,7 +16804,7 @@ figure img {
   z-index: 0;
 }
 
-/* line 149, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
+/* line 187, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/common/style.scss */
 .badge.bg-success {
   background: #ff9c00;
 }

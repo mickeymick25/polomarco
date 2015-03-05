@@ -10,11 +10,15 @@
 
 .panel{
 	padding:0;
-	background:#F5F5F5
+	background:#F5F5F5;
+	border : 1px solid #E3E3E3;
+	box-shadow: none;
 }
 
 .gauge-canvas{
 	text-align:center;
+	width : 100%;
+	height: 100%;
 }
 
 .widget-header{
