@@ -15815,6 +15815,7 @@ button.close {
  */
 /* line 33, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle {
+  outline: none;
   position: relative;
   top: 0;
   left: 0;
@@ -15828,7 +15829,7 @@ button.close {
   text-indent: -9999px;
 }
 
-/* line 61, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 62, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle::before,
 .mm-menu-toggle::after {
   display: block;
@@ -15840,7 +15841,7 @@ button.close {
   content: "";
 }
 
-/* line 72, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 73, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle::before {
   top: 0;
   -webkit-transform-origin: bottom left;
@@ -15848,7 +15849,7 @@ button.close {
   transform-origin: bottom left;
 }
 
-/* line 79, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 80, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle::after {
   bottom: 0;
   -webkit-transform-origin: top left;
@@ -15856,7 +15857,7 @@ button.close {
   transform-origin: top left;
 }
 
-/* line 86, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 87, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle,
 .mm-menu-toggle::before,
 .mm-menu-toggle::after {
@@ -15865,14 +15866,14 @@ button.close {
 }
 
 /* active states */
-/* line 94, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 95, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle.active {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-/* line 100, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 101, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle.active::before {
   width: 75%;
   -webkit-transform: translateY(7px) rotate(-45deg);
@@ -15880,7 +15881,7 @@ button.close {
   transform: translateY(7px) rotate(-45deg);
 }
 
-/* line 107, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 108, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu-toggle.active::after {
   width: 75%;
   -webkit-transform: translateY(-7px) rotate(45deg);
@@ -15893,7 +15894,7 @@ button.close {
  *
  * Here be all the stuff for the menu itself.
  */
-/* line 119, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 120, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu {
   position: fixed;
   top: 0;
@@ -15912,7 +15913,7 @@ button.close {
   transition: transform 0.5s, box-shadow 0.5s;
 }
 
-/* line 137, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 138, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu.active {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -15920,7 +15921,7 @@ button.close {
 }
 
 @media all and (min-width: 240px) {
-  /* line 145, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+  /* line 146, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
   .mm-menu {
     width: 240px;
     -webkit-transform: translateX(-240px);
@@ -15929,7 +15930,7 @@ button.close {
   }
 }
 /* header */
-/* line 153, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 154, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__header {
   position: relative;
   width: 100%;
@@ -15937,7 +15938,7 @@ button.close {
   background-color: #ff9c00;
 }
 
-/* line 160, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 161, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__title {
   position: absolute;
   bottom: 12px;
@@ -15949,14 +15950,14 @@ button.close {
 }
 
 /* list */
-/* line 171, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 172, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 177, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 178, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item {
   display: block;
   width: 100%;
@@ -15966,7 +15967,7 @@ button.close {
   transform: translateX(-50%);
 }
 
-/* line 186, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 187, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.in-view {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -15974,127 +15975,127 @@ button.close {
   transform: translateX(0);
 }
 
-/* line 193, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 194, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-1 {
   -webkit-transition: opacity 0.5s 0.1s, -webkit-transform 0.5s 0.1s;
   transition: opacity 0.5s 0.1s, transform 0.5s 0.1s;
 }
 
-/* line 198, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 199, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-2 {
   -webkit-transition: opacity 0.5s 0.2s, -webkit-transform 0.5s 0.2s;
   transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;
 }
 
-/* line 203, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 204, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-3 {
   -webkit-transition: opacity 0.5s 0.3s, -webkit-transform 0.5s 0.3s;
   transition: opacity 0.5s 0.3s, transform 0.5s 0.3s;
 }
 
-/* line 208, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 209, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-4 {
   -webkit-transition: opacity 0.5s 0.4s, -webkit-transform 0.5s 0.4s;
   transition: opacity 0.5s 0.4s, transform 0.5s 0.4s;
 }
 
-/* line 213, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 214, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-5 {
   -webkit-transition: opacity 0.5s 0.5s, -webkit-transform 0.5s 0.5s;
   transition: opacity 0.5s 0.5s, transform 0.5s 0.5s;
 }
 
-/* line 218, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 219, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-6 {
   -webkit-transition: opacity 0.5s 0.6s, -webkit-transform 0.5s 0.6s;
   transition: opacity 0.5s 0.6s, transform 0.5s 0.6s;
 }
 
-/* line 223, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 224, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-7 {
   -webkit-transition: opacity 0.5s 0.7s, -webkit-transform 0.5s 0.7s;
   transition: opacity 0.5s 0.7s, transform 0.5s 0.7s;
 }
 
-/* line 228, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 229, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-8 {
   -webkit-transition: opacity 0.5s 0.8s, -webkit-transform 0.5s 0.8s;
   transition: opacity 0.5s 0.8s, transform 0.5s 0.8s;
 }
 
-/* line 233, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 234, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-9 {
   -webkit-transition: opacity 0.5s 0.9s, -webkit-transform 0.5s 0.9s;
   transition: opacity 0.5s 0.9s, transform 0.5s 0.9s;
 }
 
-/* line 238, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 239, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-10 {
   -webkit-transition: opacity 0.5s 1.0s, -webkit-transform 0.5s 1.0s;
   transition: opacity 0.5s 1.0s, transform 0.5s 1.0s;
 }
 
-/* line 243, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 244, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-11 {
   -webkit-transition: opacity 0.5s 1.1s, -webkit-transform 0.5s 1.1s;
   transition: opacity 0.5s 1.1s, transform 0.5s 1.1s;
 }
 
-/* line 248, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 249, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-12 {
   -webkit-transition: opacity 0.5s 1.2s, -webkit-transform 0.5s 1.2s;
   transition: opacity 0.5s 1.2s, transform 0.5s 1.2s;
 }
 
-/* line 253, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 254, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-13 {
   -webkit-transition: opacity 0.5s 1.3s, -webkit-transform 0.5s 1.3s;
   transition: opacity 0.5s 1.3s, transform 0.5s 1.3s;
 }
 
-/* line 258, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 259, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-14 {
   -webkit-transition: opacity 0.5s 1.4s, -webkit-transform 0.5s 1.4s;
   transition: opacity 0.5s 1.4s, transform 0.5s 1.4s;
 }
 
-/* line 263, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 264, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-15 {
   -webkit-transition: opacity 0.5s 1.5s, -webkit-transform 0.5s 1.5s;
   transition: opacity 0.5s 1.5s, transform 0.5s 1.5s;
 }
 
-/* line 268, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 269, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-16 {
   -webkit-transition: opacity 0.5s 1.6s, -webkit-transform 0.5s 1.6s;
   transition: opacity 0.5s 1.6s, transform 0.5s 1.6s;
 }
 
-/* line 273, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 274, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-17 {
   -webkit-transition: opacity 0.5s 1.7s, -webkit-transform 0.5s 1.7s;
   transition: opacity 0.5s 1.7s, transform 0.5s 1.7s;
 }
 
-/* line 278, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 279, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-18 {
   -webkit-transition: opacity 0.5s 1.8s, -webkit-transform 0.5s 1.8s;
   transition: opacity 0.5s 1.8s, transform 0.5s 1.8s;
 }
 
-/* line 283, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 284, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-19 {
   -webkit-transition: opacity 0.5s 1.9s, -webkit-transform 0.5s 1.9s;
   transition: opacity 0.5s 1.9s, transform 0.5s 1.9s;
 }
 
-/* line 288, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/* line 289, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__item.item-20 {
   -webkit-transition: opacity 0.5s 2.0s, -webkit-transform 0.5s 2.0s;
   transition: opacity 0.5s 2.0s, transform 0.5s 2.0s;
 }
 
-/* line 293, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/*
 .mm-menu__link {
   display: block;
   position: relative;
@@ -16105,17 +16106,16 @@ button.close {
   font-size: 16px;
   text-decoration: none;
   -webkit-transition: background 0.5s, color 0.5s;
-  transition: background 0.5s, color 0.5s;
+          transition: background 0.5s, color 0.5s;
 }
 
-/* line 306, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
 .mm-menu__link-text {
   position: relative;
   z-index: 2;
 }
-
+*/
 /* the touch effect, for when a link is touched */
-/* line 312, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+/*
 .mm-menu__link--touch-effect {
   display: block;
   position: absolute;
@@ -16125,22 +16125,22 @@ button.close {
   border-radius: 100%;
   background-color: #B6B6B6;
   -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
   -webkit-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
-
-/* line 328, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/leftmenu.scss */
+*/
+/*
 .mm-menu__link--touch-effect.animating {
   -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
   -webkit-transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
+          transition: transform 0.5s;
 }
-
+*/
 /* line 1, /Users/michaelboitin/rails_workspace/polomarco/polomarco/app/assets/stylesheets/dashboard/style.scss */
 .container-fluid {
   padding-left: 0;
