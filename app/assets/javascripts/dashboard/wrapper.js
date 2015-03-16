@@ -1,3 +1,4 @@
+/*
 $.ajax({
    type: "GET",
    contentType: "application/json; charset=utf-8",
@@ -10,6 +11,7 @@ $.ajax({
        error();
    }
 });
+*/
  
 function draw(data){
 	
@@ -284,4 +286,5 @@ $(document).ready(function() {
 
 	$(window).resize(function(){onMenuResize();});
 	onMenuResize();
+	draw();
 });

@@ -187,3 +187,49 @@ figure img {
 .badge.bg-success{
     background:$btn-color-primary;
 }
+
+.uxstarlab {
+    background-color : $btn-color-primary;
+    padding: 10px 0;
+    text-align: center;
+
+    a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+
+    }
+}
+.uxstarlab .logo{
+    display: inline;
+    max-height: 25px;
+    vertical-align: middle;
+}
+
+.pictopulse {
+    color: #FF0000;
+    -webkit-animation: pulse 1.2s ease infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  20%{
+    opacity: 0.4;
+    transform: scale(1.2);
+  }
+  30%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
